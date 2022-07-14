@@ -115,7 +115,7 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/ei_firmware_esp32
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/ei_rak11200_firmware
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Espressif/tools/xtensa-esp32-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-ld.exe
@@ -492,12 +492,6 @@ __idf_wpa_supplicant_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;g
 
 //Dependencies for the target
 __idf_xtensa_LIB_DEPENDS:STATIC=general;__idf_cxx;general;__idf_newlib;general;__idf_freertos;general;__idf_esp_hw_support;general;__idf_heap;general;__idf_log;general;__idf_lwip;general;__idf_soc;general;__idf_hal;general;__idf_esp_rom;general;__idf_esp_common;general;__idf_esp_system;general;__idf_esp32;general;C:/Espressif/frameworks/esp-idf-v4.4.1/components/xtensa/esp32/libxt_hal.a;
-
-//Value Computed by CMake
-ei_firmware_esp32_BINARY_DIR:STATIC=C:/wisblock-edge-impulse/RAK11200-Edge-Impulse-Firmware/build
-
-//Value Computed by CMake
-ei_firmware_esp32_SOURCE_DIR:STATIC=C:/wisblock-edge-impulse/RAK11200-Edge-Impulse-Firmware
 
 //Value Computed by CMake
 ei_rak11200_firmware_BINARY_DIR:STATIC=C:/wisblock-edge-impulse/RAK11200-Edge-Impulse-Firmware/build
