@@ -1397,9 +1397,9 @@ pico-sdk/tools/clean:
 # Target rules for target CMakeFiles/ei_rak11310_firmware.dir
 
 # All Build rule for target.
-CMakeFiles/ei_rak11310_firmware.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
-CMakeFiles/ei_rak11310_firmware.dir/all: CMakeFiles/ELF2UF2Build.dir/all
 CMakeFiles/ei_rak11310_firmware.dir/all: CMakeFiles/ei_rak11310_firmware_pdm_pio_h.dir/all
+CMakeFiles/ei_rak11310_firmware.dir/all: CMakeFiles/ELF2UF2Build.dir/all
+CMakeFiles/ei_rak11310_firmware.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
 CMakeFiles/ei_rak11310_firmware.dir/all: freertos/CMakeFiles/freertos.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ei_rak11310_firmware.dir\build.make CMakeFiles/ei_rak11310_firmware.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ei_rak11310_firmware.dir\build.make CMakeFiles/ei_rak11310_firmware.dir/build
