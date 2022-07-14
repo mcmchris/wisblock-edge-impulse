@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Edge Impulse/RAK11310-Edge-Impulse-Firmware/build/pioasm/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pioasm/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

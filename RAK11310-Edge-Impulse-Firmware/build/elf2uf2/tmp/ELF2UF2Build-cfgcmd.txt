@@ -1,1 +1,1 @@
-cmd='C:/Espressif/tools/cmake/3.20.3/bin/cmake.exe;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'
+cmd='C:/Program Files/CMake/bin/cmake.exe;-GMinGW Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

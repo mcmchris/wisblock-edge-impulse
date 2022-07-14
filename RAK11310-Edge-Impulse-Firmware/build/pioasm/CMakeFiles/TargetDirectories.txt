@@ -1,3 +1,3 @@
-C:/Edge Impulse/RAK11310-Edge-Impulse-Firmware/build/pioasm/CMakeFiles/pioasm.dir
-C:/Edge Impulse/RAK11310-Edge-Impulse-Firmware/build/pioasm/CMakeFiles/edit_cache.dir
-C:/Edge Impulse/RAK11310-Edge-Impulse-Firmware/build/pioasm/CMakeFiles/rebuild_cache.dir
+C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pioasm/CMakeFiles/pioasm.dir
+C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pioasm/CMakeFiles/edit_cache.dir
+C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pioasm/CMakeFiles/rebuild_cache.dir

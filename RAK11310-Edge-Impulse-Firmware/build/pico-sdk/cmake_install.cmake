@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Edge Impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/tools/cmake_install.cmake")
-  include("C:/Edge Impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/cmake_install.cmake")
-  include("C:/Edge Impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/docs/cmake_install.cmake")
+  include("C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/tools/cmake_install.cmake")
+  include("C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/cmake_install.cmake")
+  include("C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/docs/cmake_install.cmake")
 
 endif()
 
