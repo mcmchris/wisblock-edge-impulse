@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Edge Impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2",
+  "command": "C:\\VSARM\\mingw\\mingw32\\bin\\c++.exe -IC:/VSARM/sdk/pico/pico-sdk/src/common/boot_uf2/include -std=gnu++14 -o CMakeFiles\\elf2uf2.dir\\main.cpp.obj -c C:\\VSARM\\sdk\\pico\\pico-sdk\\tools\\elf2uf2\\main.cpp",
+  "file": "C:\\VSARM\\sdk\\pico\\pico-sdk\\tools\\elf2uf2\\main.cpp"
+}
+]

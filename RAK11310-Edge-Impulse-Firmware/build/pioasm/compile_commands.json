@@ -1,0 +1,47 @@
+[
+{
+  "directory": "C:/Edge Impulse/RAK11310-Edge-Impulse-Firmware/build/pioasm",
+  "command": "C:\\VSARM\\mingw\\mingw32\\bin\\c++.exe -IC:/VSARM/sdk/pico/pico-sdk/tools/pioasm -IC:/VSARM/sdk/pico/pico-sdk/tools/pioasm/gen -std=gnu++11 -o CMakeFiles\\pioasm.dir\\main.cpp.obj -c C:\\VSARM\\sdk\\pico\\pico-sdk\\tools\\pioasm\\main.cpp",
+  "file": "C:\\VSARM\\sdk\\pico\\pico-sdk\\tools\\pioasm\\main.cpp"
+},
+{
+  "directory": "C:/Edge Impulse/RAK11310-Edge-Impulse-Firmware/build/pioasm",
+  "command": "C:\\VSARM\\mingw\\mingw32\\bin\\c++.exe -IC:/VSARM/sdk/pico/pico-sdk/tools/pioasm -IC:/VSARM/sdk/pico/pico-sdk/tools/pioasm/gen -std=gnu++11 -o CMakeFiles\\pioasm.dir\\pio_assembler.cpp.obj -c C:\\VSARM\\sdk\\pico\\pico-sdk\\tools\\pioasm\\pio_assembler.cpp",
+  "file": "C:\\VSARM\\sdk\\pico\\pico-sdk\\tools\\pioasm\\pio_assembler.cpp"
+},
+{
+  "directory": "C:/Edge Impulse/RAK11310-Edge-Impulse-Firmware/build/pioasm",
+  "command": "C:\\VSARM\\mingw\\mingw32\\bin\\c++.exe -IC:/VSARM/sdk/pico/pico-sdk/tools/pioasm -IC:/VSARM/sdk/pico/pico-sdk/tools/pioasm/gen -std=gnu++11 -o CMakeFiles\\pioasm.dir\\pio_disassembler.cpp.obj -c C:\\VSARM\\sdk\\pico\\pico-sdk\\tools\\pioasm\\pio_disassembler.cpp",
+  "file": "C:\\VSARM\\sdk\\pico\\pico-sdk\\tools\\pioasm\\pio_disassembler.cpp"
+},
+{
+  "directory": "C:/Edge Impulse/RAK11310-Edge-Impulse-Firmware/build/pioasm",
+  "command": "C:\\VSARM\\mingw\\mingw32\\bin\\c++.exe -IC:/VSARM/sdk/pico/pico-sdk/tools/pioasm -IC:/VSARM/sdk/pico/pico-sdk/tools/pioasm/gen -std=gnu++11 -o CMakeFiles\\pioasm.dir\\gen\\lexer.cpp.obj -c C:\\VSARM\\sdk\\pico\\pico-sdk\\tools\\pioasm\\gen\\lexer.cpp",
+  "file": "C:\\VSARM\\sdk\\pico\\pico-sdk\\tools\\pioasm\\gen\\lexer.cpp"
+},
+{
+  "directory": "C:/Edge Impulse/RAK11310-Edge-Impulse-Firmware/build/pioasm",
+  "command": "C:\\VSARM\\mingw\\mingw32\\bin\\c++.exe -IC:/VSARM/sdk/pico/pico-sdk/tools/pioasm -IC:/VSARM/sdk/pico/pico-sdk/tools/pioasm/gen -std=gnu++11 -o CMakeFiles\\pioasm.dir\\gen\\parser.cpp.obj -c C:\\VSARM\\sdk\\pico\\pico-sdk\\tools\\pioasm\\gen\\parser.cpp",
+  "file": "C:\\VSARM\\sdk\\pico\\pico-sdk\\tools\\pioasm\\gen\\parser.cpp"
+},
+{
+  "directory": "C:/Edge Impulse/RAK11310-Edge-Impulse-Firmware/build/pioasm",
+  "command": "C:\\VSARM\\mingw\\mingw32\\bin\\c++.exe -IC:/VSARM/sdk/pico/pico-sdk/tools/pioasm -IC:/VSARM/sdk/pico/pico-sdk/tools/pioasm/gen -std=gnu++11 -o CMakeFiles\\pioasm.dir\\c_sdk_output.cpp.obj -c C:\\VSARM\\sdk\\pico\\pico-sdk\\tools\\pioasm\\c_sdk_output.cpp",
+  "file": "C:\\VSARM\\sdk\\pico\\pico-sdk\\tools\\pioasm\\c_sdk_output.cpp"
+},
+{
+  "directory": "C:/Edge Impulse/RAK11310-Edge-Impulse-Firmware/build/pioasm",
+  "command": "C:\\VSARM\\mingw\\mingw32\\bin\\c++.exe -IC:/VSARM/sdk/pico/pico-sdk/tools/pioasm -IC:/VSARM/sdk/pico/pico-sdk/tools/pioasm/gen -std=gnu++11 -o CMakeFiles\\pioasm.dir\\python_output.cpp.obj -c C:\\VSARM\\sdk\\pico\\pico-sdk\\tools\\pioasm\\python_output.cpp",
+  "file": "C:\\VSARM\\sdk\\pico\\pico-sdk\\tools\\pioasm\\python_output.cpp"
+},
+{
+  "directory": "C:/Edge Impulse/RAK11310-Edge-Impulse-Firmware/build/pioasm",
+  "command": "C:\\VSARM\\mingw\\mingw32\\bin\\c++.exe -IC:/VSARM/sdk/pico/pico-sdk/tools/pioasm -IC:/VSARM/sdk/pico/pico-sdk/tools/pioasm/gen -std=gnu++11 -o CMakeFiles\\pioasm.dir\\hex_output.cpp.obj -c C:\\VSARM\\sdk\\pico\\pico-sdk\\tools\\pioasm\\hex_output.cpp",
+  "file": "C:\\VSARM\\sdk\\pico\\pico-sdk\\tools\\pioasm\\hex_output.cpp"
+},
+{
+  "directory": "C:/Edge Impulse/RAK11310-Edge-Impulse-Firmware/build/pioasm",
+  "command": "C:\\VSARM\\mingw\\mingw32\\bin\\c++.exe -IC:/VSARM/sdk/pico/pico-sdk/tools/pioasm -IC:/VSARM/sdk/pico/pico-sdk/tools/pioasm/gen -std=gnu++11 -o CMakeFiles\\pioasm.dir\\ada_output.cpp.obj -c C:\\VSARM\\sdk\\pico\\pico-sdk\\tools\\pioasm\\ada_output.cpp",
+  "file": "C:\\VSARM\\sdk\\pico\\pico-sdk\\tools\\pioasm\\ada_output.cpp"
+}
+]
