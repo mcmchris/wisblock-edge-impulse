@@ -56,7 +56,7 @@ To upload data to Edge Impulse for the first time, you will need to:
 
 ![Captura de pantalla 2022-07-14 193434](https://user-images.githubusercontent.com/49886387/179118482-f69b6150-ece9-4be0-9fe1-3ec638e204e8.png)
 
-4. In the Record new data section, click on "Connect using WebUSB" just work for "Google Chrome or Microsoft Edge" (not Chrome or Edge user?):
+4. In the Record new data section, click on "Connect using WebUSB" just work for "Google Chrome or Microsoft Edge" ([not a Google Chrome or Microsoft Edge user?](https://github.com/mcmchris/wisblock-edge-impulse/blob/main/RAK11200-Edge-Impulse-Firmware/README.md#install-edge-impulse-cli)):
 
 ![Captura de pantalla 2022-07-14 193612](https://user-images.githubusercontent.com/49886387/179118604-4f8a15cf-893e-4207-a0c5-306bae7ce9ae.png)
 
@@ -72,10 +72,19 @@ To upload data to Edge Impulse for the first time, you will need to:
 
 ![image](https://user-images.githubusercontent.com/49886387/179119451-32392dd1-6ebe-404f-a749-ee39748fa6dd.png)
 
+### Voice recognition model test
+The firmware has an already trained model inside ready to be tested.
+- For this you will necessarily install the [Edge Impulse CLI](https://github.com/mcmchris/wisblock-edge-impulse/blob/main/RAK11200-Edge-Impulse-Firmware/README.md#install-edge-impulse-cli) <- here is the guide.
+- Once you have the CLI already installed, type in the Command prompt:
+   ```bash
+   edge-impulse-run-impulse --continuous
+   ```
+- The model should run and start printing the inference results rapidly, it will seek for the phrase "Hey RAKstar", if heard, will print "Hey RAKstar heard" and will turn on the green LED in the WisBlock board.
+
+![image](https://user-images.githubusercontent.com/49886387/179295206-2db2cdba-394c-4f56-9931-7a656d545bb1.png)
 
 
-
-#### If you need to customize this firmware or add new sensors support, these are the steps for you:
+### Step by Step guide (If you need to customize this firmware or add new sensors support)
 
 Install ESP IDF v4.4, following the instructions for your OS from [this page](https://docs.espressif.com/projects/esp-idf/en/v4.4/esp32/get-started/index.html#installation-step-by-step).
 
