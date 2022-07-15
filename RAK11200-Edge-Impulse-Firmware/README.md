@@ -50,7 +50,7 @@ To upload data to Edge Impulse for the first time, you will need to:
 1. Create an [Edge Impulse account](https://studio.edgeimpulse.com/login).
 2. Create your first project:
 
-![image](https://user-images.githubusercontent.com/49886387/179117484-70429e61-dc6f-4563-b5fb-8a1170dcac16.png)
+![Captura de pantalla 2022-07-15 160739](https://user-images.githubusercontent.com/49886387/179303223-b7f7e2f6-53df-4195-8d09-87d3ae7d1283.png)
 
 3. Go to Data acquisition tab in the left menu:
 
