@@ -88,38 +88,49 @@ The firmware has an already trained model inside ready to be tested.
 
 Install ESP IDF v4.4, following the instructions for your OS from [this page](https://docs.espressif.com/projects/esp-idf/en/v4.4/esp32/get-started/index.html#installation-step-by-step).
 
-You'll need three additional components to compile this firmware:
-- esp-camera
-- LIS3DHTR_ESP-IDF
-- ESP-NN
+- Download this project or clone it.
+- You'll need two additional components to compile this firmware:
+  - LIS3DHTR_ESP-IDF
+  - ESP-NN
+-First open the ESP-IDF 4.4 CMD from the Desktop shortcut.
+-Then Navigate to the firmware folder ../RAK11200-Edge-Impulse-Firmware
 
-Get them by cloning the corresponding repositories to components folder in the root folder of the project:
+Get the additional components by cloning the corresponding repositories to **components** folder in the root folder of the project: (../RAK11200-Edge-Impulse-Firmware/components)
 
 ```bash
 cd components
-git clone --recurse-submodules https://github.com/AIWintermuteAI/esp32-camera.git esp32-camera/
-cd esp32-camera && git checkout 089d998a2c9a4fc21ca06513885e64cdefa4e177 && cd ..
 git clone https://github.com/AIWintermuteAI/LIS3DHTR_ESP-IDF.git LIS3DHTR_ESP-IDF/
-cd LIS3DHTR_ESP-IDF && git checkout 641bda8c3e4b706a2365fe87dd4d925f96ea3f8c && cd ..
+cd LIS3DHTR_ESP-IDF 
+git checkout 641bda8c3e4b706a2365fe87dd4d925f96ea3f8c 
+cd ..
 git clone https://github.com/espressif/esp-nn.git esp-nn/
-cd esp-nn && git checkout 24d18025f300c1e15afa2abb86519da54c7a5d90 && cd ..
+cd esp-nn 
+git checkout 24d18025f300c1e15afa2abb86519da54c7a5d90 
+cd ..
 cd ..
 ```
+With this last "cd .." you must be in the project folder ../RAK11200-Edge-Impulse-Firmware
 
-
-### Flash
-
-Connect the ESP32 board to your computer.
+### Building the application
 
 Run:
    ```bash
-   idf.py -p /dev/ttyUSB0 flash monitor
+   idf.py build
    ```
 
-Where ```/dev/ttyUSB0``` needs to be changed to actual port where ESP32 is connected on your system.
+### Flash
 
-### Serial connection
-
+- Connect the RAK11200 ESP32 WisBlock board to your computer.
+- Short BOOT0 and GND then press Reset button of the base board. (To re-start the core in boot mode)
+- Identify the COM port where it's connected.
+Run:
+   ```bash
+   idf.py -p COMxx flash monitor
+   ```
+- Where ```COMxx``` needs to be changed to actual port where ESP32 is connected on your system.
+- After uploaded successfully, reset the board.
+- Finally, start sending voice samples through the [CLI](https://github.com/mcmchris/wisblock-edge-impulse/blob/main/RAK11200-Edge-Impulse-Firmware/README.md#install-edge-impulse-cli) or directly with the WebUSB function from your browser.
+-
 ### Install Edge Impulse CLI
 - Follow the [installation guide](https://docs.edgeimpulse.com/docs/edge-impulse-cli/cli-installation#installation-macos-and-windows) for your OS.
 - Once installed, open your favorite command prompt and type "edge-impulse-daemon" with your board connected to your PC.
