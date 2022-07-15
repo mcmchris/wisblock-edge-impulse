@@ -17,6 +17,10 @@
 - Download the [bootloader .bin](https://github.com/mcmchris/wisblock-edge-impulse/blob/main/RAK11200-Edge-Impulse-Firmware/build/bootloader/bootloader.bin) 
 - Download the [partition table .bin](https://github.com/mcmchris/wisblock-edge-impulse/blob/main/RAK11200-Edge-Impulse-Firmware/build/partition_table/partition-table.bin)
 - Download the [ESP Flash Download Tool](https://www.espressif.com/en/support/download/other-tools) or any other flasher compatible with your OS.
+- Open the Flash Download Tool and set chipType to "ESP32" and left workMode on "develop", finally click in OK.
+
+![image](https://user-images.githubusercontent.com/49886387/179289799-e3328d8b-f8e2-4e99-a4af-6028eb6cdffa.png)
+
 - Search for the ei_rak11200_firmware.bin and set it on @ 0x10000 partition
 - Search for the bootloader.bin and set it on @ 0x1000 partition
 - Search for the partition-table.bin and set it on @ 0x8000 partition
@@ -34,7 +38,9 @@ Everything should look like this:
 
 ![image|690x285](https://user-images.githubusercontent.com/49886387/179116270-87070584-3172-4faa-9326-27bb337afb61.png)
 
-- Click on Flash and wait until you see the Finished status in the Download tool.
+- Click on START and wait until you see the Finished status in the Download tool.
+
+![image|690x285](https://user-images.githubusercontent.com/49886387/179290381-4ba5a259-6442-4b73-bac0-dbacd45f76e0.png)
 
 ![image|690x285](https://user-images.githubusercontent.com/49886387/179116885-5ac376b1-b176-4ce3-95f7-aeeca5cfc5b4.png)
 
@@ -44,13 +50,13 @@ To upload data to Edge Impulse for the first time, you will need to:
 1. Create an [Edge Impulse account](https://studio.edgeimpulse.com/login).
 2. Create your first project:
 
-![image](https://user-images.githubusercontent.com/49886387/179117484-70429e61-dc6f-4563-b5fb-8a1170dcac16.png)
+![Captura de pantalla 2022-07-15 160739](https://user-images.githubusercontent.com/49886387/179303223-b7f7e2f6-53df-4195-8d09-87d3ae7d1283.png)
 
 3. Go to Data acquisition tab in the left menu:
 
 ![Captura de pantalla 2022-07-14 193434](https://user-images.githubusercontent.com/49886387/179118482-f69b6150-ece9-4be0-9fe1-3ec638e204e8.png)
 
-4. In the Record new data section, click on "Connect using WebUSB" just work for "Google Chrome or Microsoft Edge":
+4. In the Record new data section, click on "Connect using WebUSB" just work for "Google Chrome or Microsoft Edge" ([not a Google Chrome or Microsoft Edge user?](https://github.com/mcmchris/wisblock-edge-impulse/blob/main/RAK11200-Edge-Impulse-Firmware/README.md#install-edge-impulse-cli)):
 
 ![Captura de pantalla 2022-07-14 193612](https://user-images.githubusercontent.com/49886387/179118604-4f8a15cf-893e-4207-a0c5-306bae7ce9ae.png)
 
@@ -66,44 +72,82 @@ To upload data to Edge Impulse for the first time, you will need to:
 
 ![image](https://user-images.githubusercontent.com/49886387/179119451-32392dd1-6ebe-404f-a749-ee39748fa6dd.png)
 
+### Voice recognition model test
+The firmware has an already trained model inside ready to be tested.
+- For this you will necessarily install the [Edge Impulse CLI](https://github.com/mcmchris/wisblock-edge-impulse/blob/main/RAK11200-Edge-Impulse-Firmware/README.md#install-edge-impulse-cli) <- here is the guide.
+- Once you have the CLI already installed, type in the Command prompt:
+   ```bash
+   edge-impulse-run-impulse --continuous
+   ```
+- The model should run and start printing the inference results rapidly, it will seek for the phrase "Hey RAKstar", if heard, will print "Hey RAKstar heard" and will turn on the green LED in the WisBlock board.
+
+![image](https://user-images.githubusercontent.com/49886387/179295206-2db2cdba-394c-4f56-9931-7a656d545bb1.png)
 
 
-
-#### If you need to customize this firmware or add new sensors support, these are the steps for you:
+### Step by Step guide (If you need to customize this firmware or add new sensors support)
 
 Install ESP IDF v4.4, following the instructions for your OS from [this page](https://docs.espressif.com/projects/esp-idf/en/v4.4/esp32/get-started/index.html#installation-step-by-step).
 
-You'll need three additional components to compile this firmware:
-- esp-camera
-- LIS3DHTR_ESP-IDF
-- ESP-NN
+- Download this project or clone it.
+- You'll need two additional components to compile this firmware:
+  - LIS3DHTR_ESP-IDF
+  - ESP-NN
+-First open the ESP-IDF 4.4 CMD from the Desktop shortcut.
+-Then Navigate to the firmware folder ../RAK11200-Edge-Impulse-Firmware
 
-Get them by cloning the corresponding repositories to components folder in the root folder of the project:
+Get the additional components by cloning the corresponding repositories to **components** folder in the root folder of the project: (../RAK11200-Edge-Impulse-Firmware/components)
 
 ```bash
 cd components
-git clone --recurse-submodules https://github.com/AIWintermuteAI/esp32-camera.git esp32-camera/
-cd esp32-camera && git checkout 089d998a2c9a4fc21ca06513885e64cdefa4e177 && cd ..
 git clone https://github.com/AIWintermuteAI/LIS3DHTR_ESP-IDF.git LIS3DHTR_ESP-IDF/
-cd LIS3DHTR_ESP-IDF && git checkout 641bda8c3e4b706a2365fe87dd4d925f96ea3f8c && cd ..
+cd LIS3DHTR_ESP-IDF 
+git checkout 641bda8c3e4b706a2365fe87dd4d925f96ea3f8c 
+cd ..
 git clone https://github.com/espressif/esp-nn.git esp-nn/
-cd esp-nn && git checkout 24d18025f300c1e15afa2abb86519da54c7a5d90 && cd ..
+cd esp-nn 
+git checkout 24d18025f300c1e15afa2abb86519da54c7a5d90 
+cd ..
 cd ..
 ```
+With this last "cd .." you must be in the project folder ../RAK11200-Edge-Impulse-Firmware
 
-
-### Flash
-
-Connect the ESP32 board to your computer.
+### Building the application
 
 Run:
    ```bash
-   idf.py -p /dev/ttyUSB0 flash monitor
+   idf.py build
    ```
 
-Where ```/dev/ttyUSB0``` needs to be changed to actual port where ESP32 is connected on your system.
+### Flash
 
-### Serial connection
+- Connect the RAK11200 ESP32 WisBlock board to your computer.
+- Short BOOT0 and GND then press Reset button of the base board. (To re-start the core in boot mode)
+- Identify the COM port where it's connected.
+Run:
+   ```bash
+   idf.py -p COMxx flash monitor
+   ```
+- Where ```COMxx``` needs to be changed to actual port where your WisBlock is connected on your system.
+- After uploaded successfully, reset the board.
+- Finally, start sending voice samples through the [CLI](https://github.com/mcmchris/wisblock-edge-impulse/blob/main/RAK11200-Edge-Impulse-Firmware/README.md#install-edge-impulse-cli) or directly with the [WebUSB](https://github.com/mcmchris/wisblock-edge-impulse/blob/main/RAK11200-Edge-Impulse-Firmware/README.md#test) function from your browser, or test your trained model by [Running the Impulse](https://github.com/mcmchris/wisblock-edge-impulse/blob/main/RAK11200-Edge-Impulse-Firmware/README.md#voice-recognition-model-test)
+
+### Install Edge Impulse CLI
+- Follow the [installation guide](https://docs.edgeimpulse.com/docs/edge-impulse-cli/cli-installation#installation-macos-and-windows) for your OS.
+- Once installed, open your favorite command prompt and type "edge-impulse-daemon" with your board connected to your PC.
+   ```bash
+   edge-impulse-daemon
+   ```
+- Enter your Edge Impulse account email or username and your password.
+
+![image](https://user-images.githubusercontent.com/49886387/179292586-e30bb973-e332-48b9-a37a-00fd5e95ab23.png)
+
+-Hit Enter and then you will be asked to select a project to bind your device (WisBlock Audio in this case):
+
+![image](https://user-images.githubusercontent.com/49886387/179292797-08c7d290-c8f7-408b-a745-2c93f8874acc.png)
+
+-Hit Enter and then define a custom name for your device (RAK11200 ESP32 in this case):
+
+![Captura de pantalla 2022-07-15 145926](https://user-images.githubusercontent.com/49886387/179293189-da624b61-3eb3-485b-bfa2-0808c2ca295b.png)
 
 
 
