@@ -129,7 +129,7 @@ Run:
    ```
 - Where ```COMxx``` needs to be changed to actual port where ESP32 is connected on your system.
 - After uploaded successfully, reset the board.
-- Finally, start sending voice samples through the [CLI](https://github.com/mcmchris/wisblock-edge-impulse/blob/main/RAK11200-Edge-Impulse-Firmware/README.md#install-edge-impulse-cli) or directly with the WebUSB function from your browser.
+- Finally, start sending voice samples through the [CLI](https://github.com/mcmchris/wisblock-edge-impulse/blob/main/RAK11200-Edge-Impulse-Firmware/README.md#install-edge-impulse-cli) or directly with the [WebUSB](https://github.com/mcmchris/wisblock-edge-impulse/blob/main/RAK11200-Edge-Impulse-Firmware/README.md#test) function from your browser, or test your trained model by [Running the Impulse](https://github.com/mcmchris/wisblock-edge-impulse/blob/main/RAK11200-Edge-Impulse-Firmware/README.md#voice-recognition-model-test)
 -
 ### Install Edge Impulse CLI
 - Follow the [installation guide](https://docs.edgeimpulse.com/docs/edge-impulse-cli/cli-installation#installation-macos-and-windows) for your OS.
