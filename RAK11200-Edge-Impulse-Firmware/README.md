@@ -17,6 +17,10 @@
 - Download the [bootloader .bin](https://github.com/mcmchris/wisblock-edge-impulse/blob/main/RAK11200-Edge-Impulse-Firmware/build/bootloader/bootloader.bin) 
 - Download the [partition table .bin](https://github.com/mcmchris/wisblock-edge-impulse/blob/main/RAK11200-Edge-Impulse-Firmware/build/partition_table/partition-table.bin)
 - Download the [ESP Flash Download Tool](https://www.espressif.com/en/support/download/other-tools) or any other flasher compatible with your OS.
+- Open the Flash Download Tool and set chipType to "ESP32" and left workMode on "develop", finally click in OK.
+
+![image](https://user-images.githubusercontent.com/49886387/179289799-e3328d8b-f8e2-4e99-a4af-6028eb6cdffa.png)
+
 - Search for the ei_rak11200_firmware.bin and set it on @ 0x10000 partition
 - Search for the bootloader.bin and set it on @ 0x1000 partition
 - Search for the partition-table.bin and set it on @ 0x8000 partition
@@ -34,7 +38,9 @@ Everything should look like this:
 
 ![image|690x285](https://user-images.githubusercontent.com/49886387/179116270-87070584-3172-4faa-9326-27bb337afb61.png)
 
-- Click on Flash and wait until you see the Finished status in the Download tool.
+- Click on START and wait until you see the Finished status in the Download tool.
+
+![image|690x285](https://user-images.githubusercontent.com/49886387/179290381-4ba5a259-6442-4b73-bac0-dbacd45f76e0.png)
 
 ![image|690x285](https://user-images.githubusercontent.com/49886387/179116885-5ac376b1-b176-4ce3-95f7-aeeca5cfc5b4.png)
 
@@ -50,7 +56,7 @@ To upload data to Edge Impulse for the first time, you will need to:
 
 ![Captura de pantalla 2022-07-14 193434](https://user-images.githubusercontent.com/49886387/179118482-f69b6150-ece9-4be0-9fe1-3ec638e204e8.png)
 
-4. In the Record new data section, click on "Connect using WebUSB" just work for "Google Chrome or Microsoft Edge":
+4. In the Record new data section, click on "Connect using WebUSB" just work for "Google Chrome or Microsoft Edge" (not Chrome or Edge user?):
 
 ![Captura de pantalla 2022-07-14 193612](https://user-images.githubusercontent.com/49886387/179118604-4f8a15cf-893e-4207-a0c5-306bae7ce9ae.png)
 
@@ -105,6 +111,12 @@ Where ```/dev/ttyUSB0``` needs to be changed to actual port where ESP32 is conne
 
 ### Serial connection
 
+### Install Edge Impulse CLI
+- Follow the [installation guide](https://docs.edgeimpulse.com/docs/edge-impulse-cli/cli-installation#installation-macos-and-windows) for your OS.
+- Once installed, open your favorite command prompt and type "edge-impulse-daemon" with your board connected to your PC.
+   ```bash
+   edge-impulse-daemon
+   ```
 
 
 Additionally, since Edge Impulse firmware is open-source and available to public, if you have made modifications/added new sensors capabilities, we encourage you to make a PR in firmware repository!
