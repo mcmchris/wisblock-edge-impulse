@@ -117,6 +117,18 @@ Where ```/dev/ttyUSB0``` needs to be changed to actual port where ESP32 is conne
    ```bash
    edge-impulse-daemon
    ```
+- Enter your Edge Impulse account email or username and your password.
+
+![image](https://user-images.githubusercontent.com/49886387/179292586-e30bb973-e332-48b9-a37a-00fd5e95ab23.png)
+
+-Hit Enter and then you will be asked to select a project to bind your device (WisBlock Audio in this case):
+
+![image](https://user-images.githubusercontent.com/49886387/179292797-08c7d290-c8f7-408b-a745-2c93f8874acc.png)
+
+-Hit Enter and then define a custom name for your device (RAK11200 ESP32 in this case):
+
+![Captura de pantalla 2022-07-15 145926](https://user-images.githubusercontent.com/49886387/179293189-da624b61-3eb3-485b-bfa2-0808c2ca295b.png)
+
 
 
 Additionally, since Edge Impulse firmware is open-source and available to public, if you have made modifications/added new sensors capabilities, we encourage you to make a PR in firmware repository!
