@@ -64,7 +64,7 @@ typedef struct
 class EiDeviceRP2040 : public EiDeviceInfo
 {
 private:
-    //ei_device_sensor_t sensors[EI_DEVICE_N_SENSORS];
+    // ei_device_sensor_t sensors[EI_DEVICE_N_SENSORS];
     static const int standalone_sensor_num = 1;
     ei_device_sensor_t sensors[standalone_sensor_num];
 
@@ -79,6 +79,8 @@ public:
     bool get_wifi_connection_status(void);
     bool get_wifi_present_status();
     bool get_sensor_list(const ei_device_sensor_t **sensor_list, size_t *sensor_list_size);
+    void set_default_data_output_baudrate(void);
+    void set_max_data_output_baudrate(void);
     int get_data_output_baudrate(ei_device_data_output_baudrate_t *baudrate);
     uint32_t filesys_get_block_size(void);
     uint32_t filesys_get_n_available_sample_blocks(void);

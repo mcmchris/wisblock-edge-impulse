@@ -352,6 +352,7 @@ static bool at_read_buffer(const char **argv, const int argc)
     bool use_max_baudrate = false;
     if (argc >= 3 && argv[2][0] == 'y')
     {
+
         use_max_baudrate = true;
     }
 

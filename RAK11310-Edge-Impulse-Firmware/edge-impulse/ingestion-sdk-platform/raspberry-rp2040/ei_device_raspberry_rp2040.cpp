@@ -47,7 +47,7 @@ typedef enum
 
 /** Data Output Baudrate */
 const ei_device_data_output_baudrate_t ei_dev_max_data_output_baudrate = {
-    "921600",
+    "921600", //
     MAX_BAUD,
 };
 
@@ -253,9 +253,24 @@ bool EiDeviceRP2040::stop_sample_thread(void)
 
 int EiDeviceRP2040::get_data_output_baudrate(ei_device_data_output_baudrate_t *baudrate)
 {
-    memcpy(baudrate, &ei_dev_default_data_output_baudrate, sizeof(ei_device_data_output_baudrate_t));
+    memcpy(baudrate, &ei_dev_max_data_output_baudrate, sizeof(ei_device_data_output_baudrate_t));
     return 0;
 }
+
+
+void EiDeviceRP2040::set_default_data_output_baudrate(void)
+{
+    int normal_baud = uart_set_baudrate(uart0, 115200);
+
+}
+
+void EiDeviceRP2040::set_max_data_output_baudrate(void)
+{
+    int high_baud =uart_set_baudrate(uart0, 921600);
+
+}
+
+
 
 /**
  * @brief      Get a C callback for the get_id method
