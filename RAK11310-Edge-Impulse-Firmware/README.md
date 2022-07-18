@@ -77,11 +77,16 @@ For **macOS** users follow this [guide](https://datasheets.raspberrypi.com/pico/
 ### Building the application
 
 After installing the neccessary tools to build code for the RP2040.
-Open the project on Visual Studio code.
-Select the compiler that cames in the pico-sdk and click on "Build".
+- Open the project on Visual Studio code.
+- Select the compiler that cames in the pico-sdk and click on "Build".
 
 ![Captura de pantalla 2022-07-18 114100](https://user-images.githubusercontent.com/49886387/179549644-c45c9b3b-9705-427e-8c72-4b2c44aef0e5.png)
-If it fails, delete, delete manually the Build folder of the project and try building again.
+
+- You should get this:
+
+![image](https://user-images.githubusercontent.com/49886387/179550443-0e970ca8-18e9-43de-8c44-b9d1cb97690c.png)
+
+If it fails,delete manually the **Build folder** of the project and try building again.
 
 ### Flash
 
