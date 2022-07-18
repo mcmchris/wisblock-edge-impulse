@@ -71,8 +71,8 @@ The firmware has an already trained model inside ready to be tested.
 
 ## ⚙️ Step by Step guide (If you need to customize this firmware or add new sensors support)
 
-For **Windows** users follow this [guide](https://shawnhymel.com/2096/), then you will be able to open the project of this repository on Visual Studio and build it.
-For **macOS** users follow this [guide](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf) (chapter 9.1 pag 36)
+- For **Windows** users follow this [guide](https://shawnhymel.com/2096/), then you will be able to open the project of this repository on Visual Studio and build it.
+- For **macOS** users follow this [guide](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf) (chapter 9.1 pag 36)
 
 ## Building the application
 
