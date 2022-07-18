@@ -8,9 +8,9 @@
 - [RAK11310](https://store.rakwireless.com/products/rak11310-wisblock-lpwan-module) RP2040 Core 
 - [RAK18000](https://store.rakwireless.com/products/wisblock-microphone-module-rak18000) or RAK18030 PDM Microphone
 
-### Step by Step guide (If you don't need to modify the firmware)
+## ⚙️ Step by Step guide (If you don't need to modify the firmware)
 
-### Flash
+## Flash
 
 - Download the already built [firmware .uf2](https://github.com/mcmchris/wisblock-edge-impulse/blob/main/RAK11310-Edge-Impulse-Firmware/build/ei_rak11310_firmware.uf2)
 - Connect your WisBlock board to your PC using the USB cable.
@@ -21,7 +21,7 @@
 
 ![image](https://user-images.githubusercontent.com/49886387/179539239-12b3a995-5f42-4d34-9ac6-ddfcd39129b1.png)
 
-### Test
+## Test
 
 To upload data to Edge Impulse for the first time, you will need to:
 1. Create an [Edge Impulse account](https://studio.edgeimpulse.com/login).
@@ -49,7 +49,7 @@ To upload data to Edge Impulse for the first time, you will need to:
 
 ![image](https://user-images.githubusercontent.com/49886387/179119451-32392dd1-6ebe-404f-a749-ee39748fa6dd.png)
 
-### Voice recognition model test
+## Voice recognition model test
 The firmware has an already trained model inside ready to be tested.
 - For this you will need a serial terminal to send an AT command to the board (Tested with Putty and Tera term):
    ```bash
@@ -69,12 +69,12 @@ The firmware has an already trained model inside ready to be tested.
 ![image](https://user-images.githubusercontent.com/49886387/179295206-2db2cdba-394c-4f56-9931-7a656d545bb1.png)
 
 
-### Step by Step guide (If you need to customize this firmware or add new sensors support)
+## ⚙️ Step by Step guide (If you need to customize this firmware or add new sensors support)
 
 For **Windows** users follow this [guide](https://shawnhymel.com/2096/), then you will be able to open the project of this repository on Visual Studio and build it.
 For **macOS** users follow this [guide](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf) (chapter 9.1 pag 36)
 
-### Building the application
+## Building the application
 
 After installing the neccessary tools to build code for the RP2040.
 - Open the project on Visual Studio code.
@@ -88,7 +88,7 @@ After installing the neccessary tools to build code for the RP2040.
 
 If it fails,delete manually the **Build folder** of the project and try building again.
 
-### Flash
+## Flash
 
 - Connect the RAK11310 RP2040 WisBlock board to your computer.
 - Hold the BootSel button in the RAK11300 module, reset the module (press the reset button of WisBlock Base Board for at least 2 seconds) then wait for the USB Mass Storage RPI-RP2 to appear before releasing the BootSel button.
@@ -96,7 +96,7 @@ If it fails,delete manually the **Build folder** of the project and try building
 - After uploaded successfully, reset the board.
 - Finally, start sending voice samples through the [CLI](https://github.com/mcmchris/wisblock-edge-impulse/blob/main/RAK11200-Edge-Impulse-Firmware/README.md#install-edge-impulse-cli) or directly with the [WebUSB](https://github.com/mcmchris/wisblock-edge-impulse/blob/main/RAK11200-Edge-Impulse-Firmware/README.md#test) function from your browser, or test your trained model by [Running the Impulse](https://github.com/mcmchris/wisblock-edge-impulse/blob/main/RAK11200-Edge-Impulse-Firmware/README.md#voice-recognition-model-test)
 
-### Install Edge Impulse CLI
+## Install Edge Impulse CLI
 - Follow the [installation guide](https://docs.edgeimpulse.com/docs/edge-impulse-cli/cli-installation#installation-macos-and-windows) for your OS.
 - Once installed, open your favorite command prompt and type "edge-impulse-daemon" with your board connected to your PC.
    ```bash
