@@ -74,7 +74,13 @@ To upload data to Edge Impulse for the first time, you will need to:
 
 ### Voice recognition model test
 The firmware has an already trained model inside ready to be tested.
-- For this you will necessarily install the [Edge Impulse CLI](https://github.com/mcmchris/wisblock-edge-impulse/blob/main/RAK11200-Edge-Impulse-Firmware/README.md#install-edge-impulse-cli) <- here is the guide.
+- For this you will need a serial terminal to send an AT command to the board (Arduino IDE Serial Terminal for this example with NL & CR line ending):
+   ```bash
+   AT+RUNIMPULSECONT
+   ```
+   ![image](https://user-images.githubusercontent.com/49886387/179533317-90f8f0d3-9d26-499e-aa97-8af6e02830b2.png)
+
+- Another way is by installing the [Edge Impulse CLI](https://github.com/mcmchris/wisblock-edge-impulse/blob/main/RAK11200-Edge-Impulse-Firmware/README.md#install-edge-impulse-cli) <- here is the guide.
 - Once you have the CLI already installed, type in the Command prompt:
    ```bash
    edge-impulse-run-impulse --continuous
