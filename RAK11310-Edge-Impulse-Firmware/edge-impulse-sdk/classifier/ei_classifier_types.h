@@ -52,8 +52,7 @@ typedef struct {
 
 typedef struct {
 #if EI_CLASSIFIER_OBJECT_DETECTION == 1
-    ei_impulse_result_bounding_box_t *bounding_boxes;
-    uint32_t bounding_boxes_count;
+    ei_impulse_result_bounding_box_t bounding_boxes[EI_CLASSIFIER_OBJECT_DETECTION_COUNT];
 #else
     ei_impulse_result_classification_t classification[EI_CLASSIFIER_LABEL_COUNT];
 #endif

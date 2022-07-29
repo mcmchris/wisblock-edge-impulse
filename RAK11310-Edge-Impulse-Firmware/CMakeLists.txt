@@ -10,7 +10,7 @@ include(pico_sdk_import.cmake)
 # Pull in FreeRTOS
 include(FreeRTOS_Kernel_import.cmake)
 
-project(ei_rp2040_firmware C CXX ASM)
+project(ei_rak11310_firmware C CXX ASM)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 11)
 
@@ -36,7 +36,7 @@ IF(DEFINE_DEBUG)
     MESSAGE("Build type is " ${CMAKE_BUILD_TYPE})
 ENDIF(DEFINE_DEBUG)
 
-add_executable(ei_rp2040_firmware
+add_executable(ei_rak11310_firmware
     src/main.cpp
 )
 
@@ -47,18 +47,18 @@ IF(DEFINE_PIN_UART)
     MESSAGE("Adding PIN_UART flag...")
     ADD_DEFINITIONS(-DPIN_UART)
     MESSAGE("Build type is " ${CMAKE_BUILD_TYPE})
-    pico_enable_stdio_usb(ei_rp2040_firmware 0)
-    pico_enable_stdio_uart(ei_rp2040_firmware 1)
+    pico_enable_stdio_usb(ei_rak11310_firmware 0)
+    pico_enable_stdio_uart(ei_rak11310_firmware 1)
 ELSE()
-    pico_enable_stdio_usb(ei_rp2040_firmware 1)
-    pico_enable_stdio_uart(ei_rp2040_firmware 1)
+    pico_enable_stdio_usb(ei_rak11310_firmware 1)
+    pico_enable_stdio_uart(ei_rak11310_firmware 1)
 ENDIF(DEFINE_PIN_UART)
 
 include(${EI_SDK_FOLDER}/cmake/utils.cmake)
 
-pico_generate_pio_header(ei_rp2040_firmware ${CMAKE_CURRENT_LIST_DIR}/ThirdParty/PDM/src/pdm.pio)
+pico_generate_pio_header(ei_rak11310_firmware ${CMAKE_CURRENT_LIST_DIR}/ThirdParty/PDM/src/pdm.pio)
 
-target_link_libraries(ei_rp2040_firmware
+target_link_libraries(ei_rak11310_firmware
                       pico_stdlib
                       pico_unique_id
                       hardware_gpio
@@ -71,14 +71,14 @@ target_link_libraries(ei_rp2040_firmware
                       FreeRTOS-Kernel
                       FreeRTOS-Kernel-Heap4)
 
-target_include_directories(ei_rp2040_firmware PRIVATE
+target_include_directories(ei_rak11310_firmware PRIVATE
     ${MODEL_FOLDER}
     ${MODEL_FOLDER}/classifer
     ${MODEL_FOLDER}/tflite-model
     ${MODEL_FOLDER}/model-parameters
 )
 
-target_include_directories(ei_rp2040_firmware PRIVATE
+target_include_directories(ei_rak11310_firmware PRIVATE
     ${EI_SDK_FOLDER}
     ${EI_SDK_FOLDER}/third_party/ruy
     ${EI_SDK_FOLDER}/third_party/gemmlowp
@@ -147,14 +147,14 @@ list(APPEND SOURCE_FILES ${THIRDPARTY_FILES})
 list(APPEND SOURCE_FILES ${MIC_FILES})
 
 # add all sources to the project
-target_sources(ei_rp2040_firmware PRIVATE ${SOURCE_FILES})
+target_sources(ei_rak11310_firmware PRIVATE ${SOURCE_FILES})
 
-pico_add_extra_outputs(ei_rp2040_firmware)
+pico_add_extra_outputs(ei_rak11310_firmware)
 
 OPTION(DEFINE_UART_UPLOAD
     "Replace Bootloader - will only accept firmware over UART"
     OFF)
 IF(DEFINE_UART_UPLOAD)
     MESSAGE("Adding UART_UPLOAD flag...")
-    pico_set_linker_script(ei_rp2040_firmware ${CMAKE_CURRENT_SOURCE_DIR}/uart_upload.ld)
+    pico_set_linker_script(ei_rak11310_firmware ${CMAKE_CURRENT_SOURCE_DIR}/uart_upload.ld)
 ENDIF(DEFINE_UART_UPLOAD)

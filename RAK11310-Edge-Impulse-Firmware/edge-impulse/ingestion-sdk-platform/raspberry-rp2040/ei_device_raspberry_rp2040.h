@@ -30,7 +30,7 @@
 
 /** Baud rates */
 #define DEFAULT_BAUD 115200
-#define MAX_BAUD     115200
+#define MAX_BAUD     921600
 
 /** Number of sensors used */
 #define EI_DEVICE_N_SENSORS            1

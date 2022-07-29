@@ -40,8 +40,8 @@
 
 using namespace std;
 
-EiDeviceRP2040* dev = static_cast<EiDeviceRP2040*>(EiDeviceRP2040::get_device());
-EiDeviceMemory* mem = dev->get_memory();
+EiDeviceRP2040 *dev = static_cast<EiDeviceRP2040 *>(EiDeviceRP2040::get_device());
+EiDeviceMemory *mem = dev->get_memory();
 
 // Helper functions
 
@@ -52,7 +52,8 @@ static void at_error_not_implemented()
 
 static inline bool check_args_num(const int &required, const int &received)
 {
-    if (received < required) {
+    if (received < required)
+    {
         ei_printf("Too few arguments! Required: %d\n", required);
         return false;
     }
@@ -98,7 +99,8 @@ bool at_get_upload_host(void)
 
 bool at_set_upload_host(const char **argv, const int argc)
 {
-    if (argc < 1) {
+    if (argc < 1)
+    {
         ei_printf("Missing argument!\n");
         return true;
     }
@@ -121,12 +123,13 @@ bool at_get_upload_settings(void)
 
 bool at_set_upload_settings(const char **argv, const int argc)
 {
-    if (argc < 2) {
+    if (argc < 2)
+    {
         ei_printf("Missing argument! Required: " AT_UPLOADSETTINGS_ARGS "\n");
         return true;
     }
 
-    //TODO: can we set these values to ""?
+    // TODO: can we set these values to ""?
     dev->set_upload_api_key(argv[0]);
     dev->set_upload_path(argv[1]);
 
@@ -144,7 +147,8 @@ bool at_get_mgmt_url(void)
 
 bool at_set_mgmt_url(const char **argv, const int argc)
 {
-    if (argc < 1) {
+    if (argc < 1)
+    {
         ei_printf("Missing argument!\n");
         return true;
     }
@@ -168,22 +172,24 @@ bool at_get_sample_settings(void)
 
 bool at_set_sample_settings(const char **argv, const int argc)
 {
-    if (argc < 3) {
+    if (argc < 3)
+    {
         ei_printf("Missing argument! Required: " AT_SAMPLESETTINGS_ARGS "\n");
         return true;
     }
 
     dev->set_sample_label(argv[0]);
 
-    //TODO: sanity check and/or exception handling
+    // TODO: sanity check and/or exception handling
     string interval_ms_str(argv[1]);
     dev->set_sample_interval_ms(stof(interval_ms_str));
 
-    //TODO: sanity check and/or exception handling
+    // TODO: sanity check and/or exception handling
     string sample_length_str(argv[2]);
     dev->set_sample_length_ms(stoi(sample_length_str));
 
-    if (argc >= 4) {
+    if (argc >= 4)
+    {
         dev->set_sample_hmac_key(argv[3]);
     }
 
@@ -252,7 +258,8 @@ bool at_read_buffer(const char **argv, const int argc)
 bool at_read_raw(const char **argv, const int argc)
 {
 
-    if (check_args_num(2, argc) == false) {
+    if (check_args_num(2, argc) == false)
+    {
         return true;
     }
 
@@ -264,16 +271,18 @@ bool at_read_raw(const char **argv, const int argc)
     int count = 0;
     int n_display_bytes = 16;
 
-    for (; start < length; start += n_display_bytes) {
+    for (; start < length; start += n_display_bytes)
+    {
         mem->read_sample_data(buffer, start, n_display_bytes);
 
-        for (int i = 0; i < n_display_bytes; i++) {
+        for (int i = 0; i < n_display_bytes; i++)
+        {
             ei_printf("%02x", buffer[i]);
             if (i % 16 == 15)
                 ei_printf("\n");
             else
                 ei_printf(" ");
-        }  
+        }
     }
     ei_printf("\n");
 
@@ -282,7 +291,8 @@ bool at_read_raw(const char **argv, const int argc)
 
 bool at_sample_start(const char **argv, const int argc)
 {
-    if (argc < 1) {
+    if (argc < 1)
+    {
         ei_printf("Missing sensor name!\n");
         return true;
     }
@@ -292,21 +302,27 @@ bool at_sample_start(const char **argv, const int argc)
 
     dev->get_sensor_list((const ei_device_sensor_t **)&sensor_list, &sensor_list_size);
 
-    for (size_t ix = 0; ix < sensor_list_size; ix++) {
-        if (strcmp(sensor_list[ix].name, argv[0]) == 0) {
-            if (!sensor_list[ix].start_sampling_cb()) {
+    for (size_t ix = 0; ix < sensor_list_size; ix++)
+    {
+        if (strcmp(sensor_list[ix].name, argv[0]) == 0)
+        {
+            if (!sensor_list[ix].start_sampling_cb())
+            {
                 ei_printf("ERR: Failed to start sampling\n");
             }
             return true;
         }
     }
 
-    if (ei_connect_fusion_list(argv[0], SENSOR_FORMAT)) {
-        if (!ei_fusion_setup_data_sampling()) {
+    if (ei_connect_fusion_list(argv[0], SENSOR_FORMAT))
+    {
+        if (!ei_fusion_setup_data_sampling())
+        {
             ei_printf("ERR: Failed to start sensor fusion sampling\n");
         }
     }
-    else {
+    else
+    {
         ei_printf("ERR: Failed to find sensor '%s' in the sensor list\n", argv[0]);
     }
 
@@ -323,7 +339,8 @@ bool at_run_impulse(void)
 bool at_run_impulse_debug(const char **argv, const int argc)
 {
     bool use_max_uart_speed = false;
-    if (argc > 0 && argv[0][0] == 'y') {
+    if (argc > 0 && argv[0][0] == 'y')
+    {
         use_max_uart_speed = true;
     }
 
@@ -349,7 +366,7 @@ bool at_stop_impulse(void)
 bool at_get_config(void)
 {
     dev->load_config();
-    
+
     const ei_device_sensor_t *sensor_list;
     size_t sensor_list_size;
 
@@ -362,15 +379,19 @@ bool at_get_config(void)
     ei_printf("Data Transfer Baudrate: %lu\n", dev->get_data_output_baudrate());
     ei_printf("\n");
     ei_printf("===== Sensors ======\n");
-    //TODO: move it to Sensor Manager
-    for (size_t ix = 0; ix < sensor_list_size; ix++) {
+    // TODO: move it to Sensor Manager
+    for (size_t ix = 0; ix < sensor_list_size; ix++)
+    {
         ei_printf(
             "Name: %s, Max sample length: %hus, Frequencies: [",
             sensor_list[ix].name,
             sensor_list[ix].max_sample_length_s);
-        for (size_t fx = 0; fx < EI_MAX_FREQUENCIES; fx++) {
-            if (sensor_list[ix].frequencies[fx] != 0.0f) {
-                if (fx != 0) {
+        for (size_t fx = 0; fx < EI_MAX_FREQUENCIES; fx++)
+        {
+            if (sensor_list[ix].frequencies[fx] != 0.0f)
+            {
+                if (fx != 0)
+                {
                     ei_printf(", ");
                 }
                 ei_printf("%.2fHz", sensor_list[ix].frequencies[fx]);

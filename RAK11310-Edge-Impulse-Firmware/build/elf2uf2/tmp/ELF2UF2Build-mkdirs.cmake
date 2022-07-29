@@ -4,16 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/Users/dmitrymaslov/github/rp2040/pico-sdk/tools/elf2uf2"
-  "/Users/dmitrymaslov/github/edgeimpulse-rp2040/firmware-pi-rp2040/build/elf2uf2"
-  "/Users/dmitrymaslov/github/edgeimpulse-rp2040/firmware-pi-rp2040/build/elf2uf2"
-  "/Users/dmitrymaslov/github/edgeimpulse-rp2040/firmware-pi-rp2040/build/elf2uf2/tmp"
-  "/Users/dmitrymaslov/github/edgeimpulse-rp2040/firmware-pi-rp2040/build/elf2uf2/src/ELF2UF2Build-stamp"
-  "/Users/dmitrymaslov/github/edgeimpulse-rp2040/firmware-pi-rp2040/build/elf2uf2/src"
-  "/Users/dmitrymaslov/github/edgeimpulse-rp2040/firmware-pi-rp2040/build/elf2uf2/src/ELF2UF2Build-stamp"
+  "C:/VSARM/sdk/pico/pico-sdk/tools/elf2uf2"
+  "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2"
+  "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2"
+  "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/tmp"
+  "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp"
+  "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src"
+  "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/dmitrymaslov/github/edgeimpulse-rp2040/firmware-pi-rp2040/build/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
 endforeach()
+if(cfgdir)
+  file(MAKE_DIRECTORY "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp${cfgdir}") # cfgdir has leading slash
+endif()

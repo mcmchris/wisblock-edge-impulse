@@ -47,11 +47,11 @@ constexpr uint32_t __bitset(const int (&a)[N], size_t i = 0U) {
 #endif
 
 // Wire
-#define SDA  12
-#define SCL  13
+#define SDA  2
+#define SCL  3
 
-#define PIN_WIRE1_SDA  6
-#define PIN_WIRE1_SCL  7
+#define PIN_WIRE1_SDA  (6u)
+#define PIN_WIRE1_SCL  (7u)
 
 class TwoWire {
 public:
@@ -128,7 +128,7 @@ private:
     bool _slaveStartDet = false;
 
     // TWI clock frequency
-    static const uint32_t TWI_CLOCK = 100000;
+    static const uint32_t TWI_CLOCK = 400000;
 };
 
 extern TwoWire Wire;

@@ -20,6 +20,8 @@ extern "C" {
 #include <task.h>
 
 // Hardware peripherals used
+#define PIN_PDM_DIN 7
+#define PIN_PDM_CLK 28
 uint dmaChannel = 0;
 PIO pio = pio0;
 uint sm = 0;
@@ -113,6 +115,7 @@ int PDMClass::begin(int channels, int sampleRate)
 
   // Configure PIO state machine
   float clkDiv = (float)clock_get_hz(clk_sys) / sampleRate / decimation / 2; 
+  printf("Frencuencia de CLK = %.12f\n",clkDiv);
   if(pio_can_add_program(pio, &pdm_pio_program)) {
     offset = pio_add_program(pio, &pdm_pio_program);
     pdm_pio_program_init(pio, sm, offset, _clkPin, _dinPin, clkDiv);
@@ -240,4 +243,4 @@ void PDMClass::IrqHandler(bool halftranfer)
   }
 }
 
-PDMClass PDM(22, 23, -1);
+PDMClass PDM(PIN_PDM_DIN, PIN_PDM_CLK, -1);

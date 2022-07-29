@@ -44,21 +44,21 @@
 #define EI_CLASSIFIER_DATATYPE_FLOAT32           1
 #define EI_CLASSIFIER_DATATYPE_INT8              9
 
-#define EI_CLASSIFIER_PROJECT_ID                 22
-#define EI_CLASSIFIER_PROJECT_OWNER              "Selenium test runner 5"
-#define EI_CLASSIFIER_PROJECT_NAME               "selenium-automated-project-5"
-#define EI_CLASSIFIER_PROJECT_DEPLOY_VERSION     2
-#define EI_CLASSIFIER_NN_INPUT_FRAME_SIZE        54
-#define EI_CLASSIFIER_RAW_SAMPLE_COUNT           125
-#define EI_CLASSIFIER_RAW_SAMPLES_PER_FRAME      3
+#define EI_CLASSIFIER_PROJECT_ID                 66641
+#define EI_CLASSIFIER_PROJECT_OWNER              "Christopher Mendez"
+#define EI_CLASSIFIER_PROJECT_NAME               "WisSound"
+#define EI_CLASSIFIER_PROJECT_DEPLOY_VERSION     16
+#define EI_CLASSIFIER_NN_INPUT_FRAME_SIZE        637
+#define EI_CLASSIFIER_RAW_SAMPLE_COUNT           15984
+#define EI_CLASSIFIER_RAW_SAMPLES_PER_FRAME      1
 #define EI_CLASSIFIER_DSP_INPUT_FRAME_SIZE       (EI_CLASSIFIER_RAW_SAMPLE_COUNT * EI_CLASSIFIER_RAW_SAMPLES_PER_FRAME)
 #define EI_CLASSIFIER_INPUT_WIDTH                0
 #define EI_CLASSIFIER_INPUT_HEIGHT               0
 #define EI_CLASSIFIER_INPUT_FRAMES               0
-#define EI_CLASSIFIER_INTERVAL_MS                16
-#define EI_CLASSIFIER_LABEL_COUNT                4
-#define EI_CLASSIFIER_HAS_ANOMALY                1
-#define EI_CLASSIFIER_FREQUENCY                  62.5
+#define EI_CLASSIFIER_INTERVAL_MS                0.0625
+#define EI_CLASSIFIER_LABEL_COUNT                3
+#define EI_CLASSIFIER_HAS_ANOMALY                0
+#define EI_CLASSIFIER_FREQUENCY                  16000
 #define EI_CLASSIFIER_USE_QUANTIZED_DSP_BLOCK    0
 #define EI_CLASSIFIER_HAS_MODEL_VARIABLES        1
 
@@ -69,29 +69,34 @@
 
 #define EI_CLASSIFIER_TFLITE_INPUT_DATATYPE         EI_CLASSIFIER_DATATYPE_INT8
 #define EI_CLASSIFIER_TFLITE_INPUT_QUANTIZED        1
-#define EI_CLASSIFIER_TFLITE_INPUT_SCALE            0.5635575652122498
-#define EI_CLASSIFIER_TFLITE_INPUT_ZEROPOINT        -63
+#define EI_CLASSIFIER_TFLITE_INPUT_SCALE            0.03875225409865379
+#define EI_CLASSIFIER_TFLITE_INPUT_ZEROPOINT        -19
 #define EI_CLASSIFIER_TFLITE_OUTPUT_DATATYPE        EI_CLASSIFIER_DATATYPE_INT8
 #define EI_CLASSIFIER_TFLITE_OUTPUT_QUANTIZED       1
 #define EI_CLASSIFIER_TFLITE_OUTPUT_SCALE           0.00390625
 #define EI_CLASSIFIER_TFLITE_OUTPUT_ZEROPOINT       -128
+
+
+
 #define EI_CLASSIFIER_INFERENCING_ENGINE            EI_CLASSIFIER_TFLITE
+
+
 #define EI_CLASSIFIER_COMPILED                      1
 #define EI_CLASSIFIER_HAS_TFLITE_OPS_RESOLVER       1
 
 
 #define EI_CLASSIFIER_HAS_FFT_INFO               1
-#define EI_CLASSIFIER_LOAD_FFT_32                0
+#define EI_CLASSIFIER_LOAD_FFT_32                1
 #define EI_CLASSIFIER_LOAD_FFT_64                0
-#define EI_CLASSIFIER_LOAD_FFT_128               1
-#define EI_CLASSIFIER_LOAD_FFT_256               0
+#define EI_CLASSIFIER_LOAD_FFT_128               0
+#define EI_CLASSIFIER_LOAD_FFT_256               1
 #define EI_CLASSIFIER_LOAD_FFT_512               0
 #define EI_CLASSIFIER_LOAD_FFT_1024              0
 #define EI_CLASSIFIER_LOAD_FFT_2048              0
 #define EI_CLASSIFIER_LOAD_FFT_4096              0
 
-#define EI_CLASSIFIER_SENSOR                     EI_CLASSIFIER_SENSOR_ACCELEROMETER
-#define EI_CLASSIFIER_FUSION_AXES_STRING         "accX + accY + accZ"
+#define EI_CLASSIFIER_SENSOR                     EI_CLASSIFIER_SENSOR_MICROPHONE
+#define EI_CLASSIFIER_FUSION_AXES_STRING         "audio"
 
 #ifndef EI_CLASSIFIER_SLICES_PER_MODEL_WINDOW
 #define EI_CLASSIFIER_SLICES_PER_MODEL_WINDOW    4
@@ -195,5 +200,11 @@ typedef struct {
     int high_frequency;
     float pre_cof;
 } ei_dsp_config_audio_syntiant_t;
+
+typedef struct {
+    uint16_t implementation_version;
+    int axes;
+    bool scaling;
+} ei_dsp_config_imu_syntiant_t;
 
 #endif // _EI_CLASSIFIER_MODEL_METADATA_H_
