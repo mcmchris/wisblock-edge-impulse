@@ -1,28 +1,7 @@
 {
-    "files.associations": {
-        "xlocale": "cpp",
-        "xlocinfo": "cpp",
-        "xstring": "cpp",
-        "thread": "cpp",
-        "complex": "cpp",
-        "format": "cpp",
-        "stdlib.h": "c",
-        "array": "cpp",
-        "chrono": "cpp",
-        "forward_list": "cpp",
-        "initializer_list": "cpp",
-        "list": "cpp",
-        "vector": "cpp",
-        "xhash": "cpp",
-        "xtree": "cpp",
-        "xutility": "cpp",
-        "ios": "c",
-        "xiosbase": "c",
-        "type_traits": "c",
-        "ei_device_raspberry_rp2040.h": "c",
-        "ei_run_classifier.h": "c"
-    },
     "nrf-connect.toolchain.path": "${nrf-connect.toolchain:2.0.0}",
-    "nrf-connect.topdir": "${nrf-connect.sdk:1.7.0}",
-    "nrf-connect.applications": []
+    "files.associations": {
+        "iosfwd": "cpp",
+        "xlocbuf": "cpp"
+    }
 }

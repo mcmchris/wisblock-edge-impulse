@@ -30,7 +30,3 @@
 *.exe
 *.out
 *.app
-
-#/firmware-sdk
-/.vscode/
-.DS_Store

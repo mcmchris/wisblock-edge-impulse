@@ -24,32 +24,37 @@
 
 #include <stdint.h>
 #include "model_metadata.h"
-#include "edge-impulse-sdk/classifier/ei_model_types.h"
 
-const char* ei_classifier_inferencing_categories[] = { "Hey RAKstar", "noise", "unknown" };
+const char* ei_classifier_inferencing_categories[] = { "idle", "snake", "updown", "wave" };
 
-uint8_t ei_dsp_config_13_axes[] = { 0 };
-const uint32_t ei_dsp_config_13_axes_size = 1;
-ei_dsp_config_mfcc_t ei_dsp_config_13 = {
-    3,
+uint8_t ei_dsp_config_3_axes[] = { 0, 1, 2 };
+const uint32_t ei_dsp_config_3_axes_size = 3;
+ei_dsp_config_spectral_analysis_t ei_dsp_config_3 = {
     1,
-    13,
-    0.02f,
-    0.02f,
-    32,
-    256,
-    101,
-    300,
-    0,
-    0.98f,
-    1
+    3,
+    1.0f,
+    "low",
+    3.0f,
+    6,
+    128,
+    3,
+    0.1f,
+    "0.1, 0.5, 1.0, 2.0, 5.0"
 };
-const ei_model_performance_calibration_t ei_calibration = {
-    1, /* integer version number */
-    (int32_t)(EI_CLASSIFIER_RAW_SAMPLE_COUNT / ((EI_CLASSIFIER_FREQUENCY > 0) ? EI_CLASSIFIER_FREQUENCY : 1)) * 1000, /* Model window */
-    0.8f, /* Default threshold */
-    (int32_t)(EI_CLASSIFIER_RAW_SAMPLE_COUNT / ((EI_CLASSIFIER_FREQUENCY > 0) ? EI_CLASSIFIER_FREQUENCY : 1)) * 500, /* Half of model window */
-    0   /* Don't use flags */
+
+uint8_t ei_dsp_config_7_axes[] = { 0, 1, 2 };
+const uint32_t ei_dsp_config_7_axes_size = 3;
+ei_dsp_config_flatten_t ei_dsp_config_7 = {
+    1,
+    3,
+    1.0f,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
 };
 
 #endif // _EI_CLASSIFIER_MODEL_METADATA_H_

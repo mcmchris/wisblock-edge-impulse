@@ -87,7 +87,6 @@ void TwoWire::setClock(uint32_t hz) {
 
 // Master mode
 void TwoWire::begin() {
-    
     if (_running) {
         // ERROR
         return;

@@ -23,8 +23,6 @@
 
 #pragma once
 
-//#include <Arduino.h>
-//#include "api/HardwareI2C.h"
 #include <hardware/i2c.h>
 
 #ifdef EXTENDED_PIN_MODE
@@ -49,11 +47,11 @@ constexpr uint32_t __bitset(const int (&a)[N], size_t i = 0U) {
 #endif
 
 // Wire
-#define SDA  2
-#define SCL  3
+#define SDA  12
+#define SCL  13
 
-#define PIN_WIRE1_SDA  (6u)
-#define PIN_WIRE1_SCL  (7u)
+#define PIN_WIRE1_SDA  6
+#define PIN_WIRE1_SCL  7
 
 class TwoWire {
 public:
@@ -130,7 +128,7 @@ private:
     bool _slaveStartDet = false;
 
     // TWI clock frequency
-    static const uint32_t TWI_CLOCK = 400000;
+    static const uint32_t TWI_CLOCK = 100000;
 };
 
 extern TwoWire Wire;

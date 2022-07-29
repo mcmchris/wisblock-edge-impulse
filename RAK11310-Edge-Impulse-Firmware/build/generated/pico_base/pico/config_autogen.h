@@ -4,8 +4,9 @@
 
 // based on PICO_CONFIG_HEADER_FILES:
 
-#include "C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h"
+#include "/Users/dmitrymaslov/github/edgeimpulse-rp2040/firmware-pi-rp2040/ThirdParty/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h"
+#include "/Users/dmitrymaslov/github/rp2040/pico-sdk/src/boards/include/boards/pico.h"
 
 // based on PICO_RP2040_CONFIG_HEADER_FILES:
 
-#include "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h"
+#include "/Users/dmitrymaslov/github/rp2040/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h"

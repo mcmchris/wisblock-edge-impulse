@@ -27,14 +27,21 @@
 #include "edge-impulse-sdk/classifier/ei_run_dsp.h"
 #include "edge-impulse-sdk/classifier/ei_model_types.h"
 
-const size_t ei_dsp_blocks_size = 1;
+const size_t ei_dsp_blocks_size = 2;
 ei_model_dsp_t ei_dsp_blocks[ei_dsp_blocks_size] = {
-    { // DSP block 13
-        637,
-        &extract_mfcc_features,
-        (void*)&ei_dsp_config_13,
-        ei_dsp_config_13_axes,
-        ei_dsp_config_13_axes_size
+    { // DSP block 3
+        33,
+        &extract_spectral_analysis_features,
+        (void*)&ei_dsp_config_3,
+        ei_dsp_config_3_axes,
+        ei_dsp_config_3_axes_size
+    },
+    { // DSP block 7
+        21,
+        &extract_flatten_features,
+        (void*)&ei_dsp_config_7,
+        ei_dsp_config_7_axes,
+        ei_dsp_config_7_axes_size
     }
 };
 

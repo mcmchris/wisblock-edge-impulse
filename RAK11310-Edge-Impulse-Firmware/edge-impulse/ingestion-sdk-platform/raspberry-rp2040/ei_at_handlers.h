@@ -26,6 +26,6 @@
 #include "ei_at_server.h"
 #include "ei_device_raspberry_rp2040.h"
 
-ATServer *ei_at_init(void);
+ATServer *ei_at_init(EiDeviceRP2040 *device);
 
 #endif /* EI_AT_HANDLERS_H */

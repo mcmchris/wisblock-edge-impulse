@@ -28,11 +28,10 @@
 #include <stdbool.h>
 #include <stdlib.h>
 
-/** Number of axis used and sample data format */
-#define PDM_AXIS_SAMPLED 1
+#include <PDM.h>
 
-/* Function prototypes ----------------------------------------------------- */
-
+#define SAMPLE_BUFFER_SIZE 256
+// Function prototypes 
 bool ei_microphone_inference_start(uint32_t n_samples, float interval_ms);
 
 bool ei_microphone_sample_start(void);
@@ -41,6 +40,5 @@ bool ei_microphone_inference_is_recording(void);
 void ei_microphone_inference_reset_buffers(void);
 int ei_microphone_inference_get_data(size_t offset, size_t length, float *out_ptr);
 bool ei_microphone_inference_end(void);
-
 
 #endif
