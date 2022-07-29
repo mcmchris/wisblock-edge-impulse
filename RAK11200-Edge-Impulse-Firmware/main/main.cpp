@@ -40,8 +40,9 @@ static ATServer *at;
 
 /* Private variables ------------------------------------------------------- */
 #define GPIO_OUTPUT_WIO_IO2 GPIO_NUM_27
-#define GPIO_OUTPUT_LED_GREEN GPIO_NUM_12
-#define GPIO_OUTPUT_PIN_SEL ((1ULL << GPIO_OUTPUT_WIO_IO2) | (1ULL << GPIO_OUTPUT_LED_GREEN))
+#define GPIO_OUTPUT_RELAY GPIO_NUM_18
+
+#define GPIO_OUTPUT_PIN_SEL (1ULL << GPIO_OUTPUT_WIO_IO2)
 /* Public functions -------------------------------------------------------- */
 
 extern "C" int app_main()
@@ -52,16 +53,18 @@ extern "C" int app_main()
     gpio_pad_select_gpio(GPIO_NUM_22);
     gpio_reset_pin(GPIO_NUM_22);
 
+    gpio_pad_select_gpio(GPIO_OUTPUT_WIO_IO2);
+    gpio_reset_pin(GPIO_OUTPUT_WIO_IO2);
+
+    gpio_pad_select_gpio(GPIO_OUTPUT_RELAY);
+    gpio_reset_pin(GPIO_OUTPUT_RELAY);
+
+    gpio_set_direction(GPIO_OUTPUT_RELAY, GPIO_MODE_OUTPUT);
     gpio_set_direction(GPIO_NUM_21, GPIO_MODE_OUTPUT);
     gpio_set_direction(GPIO_NUM_22, GPIO_MODE_OUTPUT);
+    gpio_set_direction(GPIO_OUTPUT_WIO_IO2, GPIO_MODE_OUTPUT);
 
-    // zero-initialize the config structure.
-    gpio_config_t io_conf = {};
-    // set as output mode
-    io_conf.mode = GPIO_MODE_OUTPUT;
-    // bit mask of the pins that you want to set,e.g.GPIO18/19
-    io_conf.pin_bit_mask = GPIO_OUTPUT_PIN_SEL;
-    gpio_config(&io_conf);
+    gpio_set_level(GPIO_OUTPUT_WIO_IO2, 1);
 
     /* Initialize Edge Impulse sensors and commands */
 
@@ -93,16 +96,14 @@ extern "C" int app_main()
 
     while (1)
     {
-        gpio_set_level(GPIO_OUTPUT_WIO_IO2, 1);
-        //gpio_set_level(GPIO_OUTPUT_LED_GREEN, 1);
         /* handle command comming from uart */
-        //ei_start_impulse(true, false);
-        char data = ei_get_serial_byte();
+        ei_start_impulse(true, false);
+        /*char data = ei_get_serial_byte();
 
         while (data != 0xFF)
         {
             at->handle(data);
             data = ei_get_serial_byte();
-        }
+        }*/
     }
 }

@@ -13552,7 +13552,6 @@ ei_rak11310_firmware.elf: CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/
 ei_rak11310_firmware.elf: CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
 ei_rak11310_firmware.elf: CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 ei_rak11310_firmware.elf: CMakeFiles/ei_rak11310_firmware.dir/build.make
-ei_rak11310_firmware.elf: freertos/libfreertos.a
 ei_rak11310_firmware.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 ei_rak11310_firmware.elf: CMakeFiles/ei_rak11310_firmware.dir/objects1.rsp
 ei_rak11310_firmware.elf: CMakeFiles/ei_rak11310_firmware.dir/link.txt

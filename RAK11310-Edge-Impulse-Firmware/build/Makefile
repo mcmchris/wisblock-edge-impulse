@@ -232,19 +232,6 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\build.make pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
-#=============================================================================
-# Target rules for targets named freertos
-
-# Build rule for target.
-freertos: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 freertos
-.PHONY : freertos
-
-# fast build rule for target.
-freertos/fast:
-	$(MAKE) $(MAKESILENT) -f freertos\CMakeFiles\freertos.dir\build.make freertos/CMakeFiles/freertos.dir/build
-.PHONY : freertos/fast
-
 C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 .PHONY : C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
 
@@ -20318,7 +20305,6 @@ help:
 	@echo ... ei_rak11310_firmware_pdm_pio_h
 	@echo ... bs2_default
 	@echo ... ei_rak11310_firmware
-	@echo ... freertos
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s

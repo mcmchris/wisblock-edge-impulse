@@ -40,7 +40,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/cmake_install.cmake")
-  include("C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/freertos/cmake_install.cmake")
 
 endif()
 

@@ -22,5 +22,7 @@
         "ei_device_raspberry_rp2040.h": "c",
         "ei_run_classifier.h": "c"
     },
-    "nrf-connect.toolchain.path": "${nrf-connect.toolchain:2.0.0}"
+    "nrf-connect.toolchain.path": "${nrf-connect.toolchain:2.0.0}",
+    "nrf-connect.topdir": "${nrf-connect.sdk:1.7.0}",
+    "nrf-connect.applications": []
 }

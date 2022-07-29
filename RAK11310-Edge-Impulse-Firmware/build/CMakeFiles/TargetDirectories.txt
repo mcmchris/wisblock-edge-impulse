@@ -155,6 +155,3 @@ C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp204
 C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp2040/hardware_structs/CMakeFiles/rebuild_cache.dir
 C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/docs/CMakeFiles/edit_cache.dir
 C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/docs/CMakeFiles/rebuild_cache.dir
-C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/freertos/CMakeFiles/freertos.dir
-C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/freertos/CMakeFiles/edit_cache.dir
-C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/freertos/CMakeFiles/rebuild_cache.dir

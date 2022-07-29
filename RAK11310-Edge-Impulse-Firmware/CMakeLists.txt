@@ -50,7 +50,6 @@ target_link_libraries(ei_rak11310_firmware
                       hardware_i2c
                       hardware_irq
                       hardware_flash
-                      freertos
                       hardware_dma 
                       hardware_pio
                       )
@@ -101,9 +100,6 @@ target_include_directories(ei_rak11310_firmware PRIVATE
 )
 
 pico_generate_pio_header(ei_rak11310_firmware ${CMAKE_CURRENT_LIST_DIR}/ThirdParty/pdm_microphone/src/pdm.pio)
-
-
-add_subdirectory(freertos)
 
 include_directories(${INCLUDES})
 

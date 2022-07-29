@@ -132,7 +132,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.24.0-rc2/CMakeSystem.cmake"
   "elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake"
   "pico-sdk/src/rp2_common/cyw43_driver/pioasm/tmp/PioasmBuild-mkdirs.cmake"
-  "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/freertos/CMakeLists.txt"
   "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/pico_sdk_import.cmake"
   "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/utils/cmake/utils.cmake"
   )
@@ -228,7 +227,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "pico-sdk/src/rp2040/hardware_regs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/src/rp2040/hardware_structs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "freertos/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -242,5 +240,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake"
-  "freertos/CMakeFiles/freertos.dir/DependInfo.cmake"
   )

@@ -21363,9 +21363,9 @@ Discarded input sections
  .text.pio_sm_drain_tx_fifo
                 0x00000000       0x40 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .bss.claimed   0x00000000        0x1 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- .text          0x00000000        0x0 C:\Users\MCMCHRIS\AppData\Local\Temp\ccccSTNl.o
- .data          0x00000000        0x0 C:\Users\MCMCHRIS\AppData\Local\Temp\ccccSTNl.o
- .bss           0x00000000        0x0 C:\Users\MCMCHRIS\AppData\Local\Temp\ccccSTNl.o
+ .text          0x00000000        0x0 C:\Users\MCMCHRIS\AppData\Local\Temp\ccu4bvM8.o
+ .data          0x00000000        0x0 C:\Users\MCMCHRIS\AppData\Local\Temp\ccu4bvM8.o
+ .bss           0x00000000        0x0 C:\Users\MCMCHRIS\AppData\Local\Temp\ccu4bvM8.o
  .text          0x00000000        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(guard.o)
  .data          0x00000000        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(guard.o)
  .bss           0x00000000        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(guard.o)
@@ -25720,7 +25720,7 @@ LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\MCMCHRIS\AppData\Local\Temp\ccccSTNl.o
+ .boot2         0x10000000      0x100 C:\Users\MCMCHRIS\AppData\Local\Temp\ccu4bvM8.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -29034,7 +29034,7 @@ LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../
 .iplt           0x10034b80        0x0
  .iplt          0x10034b80        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x10034b80     0x8db4
+.rodata         0x10034b80     0x8da4
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.kiss_fftr_alloc.str1.4
                 0x10034b80       0x19 CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp.obj
@@ -29942,713 +29942,714 @@ LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../
                 0x1003aba4        0xe CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  *fill*         0x1003abb2        0x2 
  .rodata.str1.4
-                0x1003abb4       0x4c CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1003abb4       0x3d CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                                 0x4c (size before relaxing)
+ *fill*         0x1003abf1        0x3 
  .rodata.__bi_44
-                0x1003ac00        0xc CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1003abf4        0xc CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x1003ac0c        0xc CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1003ac00        0xc CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x1003ac18        0xc CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1003ac0c        0xc CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__wrap_getchar.str1.4
-                0x1003ac24       0x49 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x1003ac18       0x49 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .rodata.getchar_timeout_us.str1.4
-                0x1003ac6d       0x67 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x1003ac6d        0x3 
+                0x1003ac61       0x67 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x1003ac61        0x3 
  .rodata.__func__.0
-                0x1003ac70       0x15 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x1003ac85        0x3 
+                0x1003ac64       0x15 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x1003ac79        0x3 
  .rodata.__func__.1
-                0x1003ac88       0x13 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x1003ac9b        0x1 
+                0x1003ac7c       0x13 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x1003ac8f        0x1 
  .rodata.__func__.2
-                0x1003ac9c        0xf CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x1003acab        0x1 
+                0x1003ac90        0xf CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x1003ac9f        0x1 
  .rodata.crlf_str.3
-                0x1003acac        0x2 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x1003acae        0x2 
+                0x1003aca0        0x2 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x1003aca2        0x2 
  .rodata.timer_task.str1.4
-                0x1003acb0       0x6d CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x1003aca4       0x6d CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.stdio_usb_init.str1.4
-                0x1003ad1d       0x61 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- *fill*         0x1003ad1d        0x3 
+                0x1003ad11       0x61 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ *fill*         0x1003ad11        0x3 
  .rodata.str1.4
-                0x1003ad20       0x13 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- *fill*         0x1003ad33        0x1 
+                0x1003ad14       0x13 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ *fill*         0x1003ad27        0x1 
  .rodata.__bi_118.2
-                0x1003ad34        0xc CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x1003ad28        0xc CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.__func__.0
-                0x1003ad40       0x15 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- *fill*         0x1003ad55        0x3 
+                0x1003ad34       0x15 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ *fill*         0x1003ad49        0x3 
  .rodata.__func__.1
-                0x1003ad58        0xb CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- *fill*         0x1003ad63        0x1 
+                0x1003ad4c        0xb CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ *fill*         0x1003ad57        0x1 
  .rodata.str1.4
-                0x1003ad64       0x22 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x1003ad86        0x2 
+                0x1003ad58       0x22 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x1003ad7a        0x2 
  .rodata.usbd_desc_cfg
-                0x1003ad88       0x4b CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x1003add3        0x1 
+                0x1003ad7c       0x4b CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x1003adc7        0x1 
  .rodata.usbd_desc_device
-                0x1003add4       0x12 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x1003ade6        0x2 
+                0x1003adc8       0x12 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x1003adda        0x2 
  .rodata.usbd_desc_str
-                0x1003ade8       0x14 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x1003addc       0x14 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata._hw_endpoint_alloc.str1.4
-                0x1003adfc       0xb5 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x1003aeb1        0x3 
+                0x1003adf0       0xb5 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x1003aea5        0x3 
  .rodata.dcd_rp2040_irq.str1.4
-                0x1003aeb4       0x14 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x1003aea8       0x14 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.dcd_int_enable.str1.4
-                0x1003aec8        0xc CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x1003aebc        0xc CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.__func__.0
-                0x1003aed4        0xe CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x1003aee2        0x2 
+                0x1003aec8        0xe CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x1003aed6        0x2 
  .rodata.__func__.1
-                0x1003aee4        0xe CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x1003aef2        0x2 
+                0x1003aed8        0xe CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x1003aee6        0x2 
  .rodata.__func__.3
-                0x1003aef4       0x10 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x1003aee8       0x10 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.__func__.5
-                0x1003af04        0xf CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x1003af13        0x1 
+                0x1003aef8        0xf CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x1003af07        0x1 
  .rodata.__func__.6
-                0x1003af14       0x13 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x1003af27        0x1 
+                0x1003af08       0x13 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x1003af1b        0x1 
  .rodata.__func__.7
-                0x1003af28        0x9 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x1003af31        0x3 
+                0x1003af1c        0x9 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x1003af25        0x3 
  .rodata.sync_ep_buffer.str1.4
-                0x1003af34       0x91 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x1003afc5        0x3 
+                0x1003af28       0x91 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x1003afb9        0x3 
  .rodata._hw_endpoint_buffer_control_update32.str1.4
-                0x1003afc8       0x1f CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x1003afe7        0x1 
+                0x1003afbc       0x1f CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x1003afdb        0x1 
  .rodata.hw_endpoint_xfer_start.str1.4
-                0x1003afe8       0x38 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x1003afdc       0x38 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .rodata.hw_endpoint_xfer_continue.str1.4
-                0x1003b020       0x29 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x1003b049        0x3 
+                0x1003b014       0x29 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x1003b03d        0x3 
  .rodata.str1.4
-                0x1003b04c        0x7 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x1003b053        0x1 
+                0x1003b040        0x7 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x1003b047        0x1 
  .rodata.__func__.0
-                0x1003b054        0xf CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x1003b063        0x1 
+                0x1003b048        0xf CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x1003b057        0x1 
  .rodata.process_set_config.str1.4
-                0x1003b064       0x17 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- *fill*         0x1003b07b        0x1 
+                0x1003b058       0x17 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ *fill*         0x1003b06f        0x1 
  .rodata.process_get_descriptor
-                0x1003b07c       0x40 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x1003b070       0x40 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata.process_control_request
-                0x1003b0bc       0x28 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x1003b0b0       0x28 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata.tud_task
-                0x1003b0e4       0x24 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x1003b0d8       0x24 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata.__func__.2
-                0x1003b108        0xf CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- *fill*         0x1003b117        0x1 
+                0x1003b0fc        0xf CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ *fill*         0x1003b10b        0x1 
  .rodata.__func__.3
-                0x1003b118        0xf CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- *fill*         0x1003b127        0x1 
+                0x1003b10c        0xf CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ *fill*         0x1003b11b        0x1 
  .rodata.__func__.4
-                0x1003b128       0x14 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x1003b11c       0x14 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata.__func__.5
-                0x1003b13c       0x10 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x1003b130       0x10 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata.__func__.6
-                0x1003b14c       0x17 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- *fill*         0x1003b163        0x1 
+                0x1003b140       0x17 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ *fill*         0x1003b157        0x1 
  .rodata.__func__.7
-                0x1003b164       0x13 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- *fill*         0x1003b177        0x1 
+                0x1003b158       0x13 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ *fill*         0x1003b16b        0x1 
  .rodata.__func__.8
-                0x1003b178       0x18 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x1003b16c       0x18 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata.__func__.9
-                0x1003b190        0x9 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- *fill*         0x1003b199        0x3 
+                0x1003b184        0x9 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ *fill*         0x1003b18d        0x3 
  .rodata._usbd_driver
-                0x1003b19c       0x18 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x1003b190       0x18 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata.tud_control_xfer.str1.4
-                0x1003b1b4       0x17 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x1003b1a8       0x17 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
  .rodata.__func__.0
-                0x1003b1b4       0x15 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
- *fill*         0x1003b1c9        0x3 
+                0x1003b1a8       0x15 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+ *fill*         0x1003b1bd        0x3 
  .rodata.__func__.1
-                0x1003b1cc       0x11 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x1003b1c0       0x11 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
  .rodata.tud_cdc_n_write_flush.str1.4
-                0x1003b1dd       0x17 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- *fill*         0x1003b1dd        0x3 
+                0x1003b1d1       0x17 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ *fill*         0x1003b1d1        0x3 
  .rodata.__func__.0
-                0x1003b1e0        0xd CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- *fill*         0x1003b1ed        0x3 
+                0x1003b1d4        0xd CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ *fill*         0x1003b1e1        0x3 
  .rodata.__func__.1
-                0x1003b1f0        0xa CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- *fill*         0x1003b1fa        0x2 
+                0x1003b1e4        0xa CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ *fill*         0x1003b1ee        0x2 
  .rodata.__func__.2
-                0x1003b1fc       0x16 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x1003b1f0       0x16 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
  .rodata.tusb_init.str1.4
-                0x1003b212       0x17 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
- *fill*         0x1003b212        0x2 
+                0x1003b206       0x17 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ *fill*         0x1003b206        0x2 
  .rodata.__func__.0
-                0x1003b214       0x11 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
- *fill*         0x1003b225        0x3 
+                0x1003b208       0x11 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ *fill*         0x1003b219        0x3 
  .rodata.__func__.1
-                0x1003b228        0xa CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
- *fill*         0x1003b232        0x2 
+                0x1003b21c        0xa CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ *fill*         0x1003b226        0x2 
  .rodata.pico_get_unique_board_id_string.str1.4
-                0x1003b234       0x4d CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
- *fill*         0x1003b281        0x3 
+                0x1003b228       0x4d CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+ *fill*         0x1003b275        0x3 
  .rodata.__func__.0
-                0x1003b284       0x20 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x1003b278       0x20 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .rodata.str1.4
-                0x1003b2a4      0x15a CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- *fill*         0x1003b3fe        0x2 
+                0x1003b298      0x15a CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ *fill*         0x1003b3f2        0x2 
  .rodata.__func__.0
-                0x1003b400        0xd CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- *fill*         0x1003b40d        0x3 
+                0x1003b3f4        0xd CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ *fill*         0x1003b401        0x3 
  .rodata.__func__.1
-                0x1003b410       0x14 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x1003b404       0x14 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  .rodata.__func__.2
-                0x1003b424       0x12 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- *fill*         0x1003b436        0x2 
+                0x1003b418       0x12 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ *fill*         0x1003b42a        0x2 
  .rodata.i2c_set_baudrate.str1.4
-                0x1003b438       0x5d CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
- *fill*         0x1003b495        0x3 
+                0x1003b42c       0x5d CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+ *fill*         0x1003b489        0x3 
  .rodata.__func__.0
-                0x1003b498       0x11 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
- *fill*         0x1003b4a9        0x3 
+                0x1003b48c       0x11 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+ *fill*         0x1003b49d        0x3 
  .rodata._pio_find_offset_for_program.str1.4
-                0x1003b4ac       0x69 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- *fill*         0x1003b515        0x3 
+                0x1003b4a0       0x69 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+ *fill*         0x1003b509        0x3 
  .rodata._pio_add_program_at_offset.str1.4
-                0x1003b518       0x11 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- *fill*         0x1003b529        0x3 
+                0x1003b50c       0x11 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+ *fill*         0x1003b51d        0x3 
  .rodata.pio_remove_program.str1.4
-                0x1003b52c       0x4d CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- *fill*         0x1003b579        0x3 
+                0x1003b520       0x4d CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+ *fill*         0x1003b56d        0x3 
  .rodata.__func__.0
-                0x1003b57c       0x13 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- *fill*         0x1003b58f        0x1 
+                0x1003b570       0x13 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+ *fill*         0x1003b583        0x1 
  .rodata.__func__.1
-                0x1003b590       0x1d CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- *fill*         0x1003b5ad        0x3 
+                0x1003b584       0x1d CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+ *fill*         0x1003b5a1        0x3 
  .rodata._ZTIN9__gnu_cxx20recursive_init_errorE
-                0x1003b5b0        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(guard_error.o)
-                0x1003b5b0                typeinfo for __gnu_cxx::recursive_init_error
+                0x1003b5a4        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(guard_error.o)
+                0x1003b5a4                typeinfo for __gnu_cxx::recursive_init_error
  .rodata._ZTSN9__gnu_cxx20recursive_init_errorE
-                0x1003b5bc       0x23 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(guard_error.o)
-                0x1003b5bc                typeinfo name for __gnu_cxx::recursive_init_error
- *fill*         0x1003b5df        0x1 
+                0x1003b5b0       0x23 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(guard_error.o)
+                0x1003b5b0                typeinfo name for __gnu_cxx::recursive_init_error
+ *fill*         0x1003b5d3        0x1 
  .rodata._ZTVN9__gnu_cxx20recursive_init_errorE
-                0x1003b5e0       0x14 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(guard_error.o)
-                0x1003b5e0                vtable for __gnu_cxx::recursive_init_error
+                0x1003b5d4       0x14 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(guard_error.o)
+                0x1003b5d4                vtable for __gnu_cxx::recursive_init_error
  .rodata._ZTIN10__cxxabiv120__si_class_type_infoE
-                0x1003b5f4        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
-                0x1003b5f4                typeinfo for __cxxabiv1::__si_class_type_info
+                0x1003b5e8        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
+                0x1003b5e8                typeinfo for __cxxabiv1::__si_class_type_info
  .rodata._ZTSN10__cxxabiv120__si_class_type_infoE
-                0x1003b600       0x25 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
-                0x1003b600                typeinfo name for __cxxabiv1::__si_class_type_info
- *fill*         0x1003b625        0x3 
+                0x1003b5f4       0x25 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
+                0x1003b5f4                typeinfo name for __cxxabiv1::__si_class_type_info
+ *fill*         0x1003b619        0x3 
  .rodata._ZTVN10__cxxabiv120__si_class_type_infoE
-                0x1003b628       0x2c c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
-                0x1003b628                vtable for __cxxabiv1::__si_class_type_info
+                0x1003b61c       0x2c c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
+                0x1003b61c                vtable for __cxxabiv1::__si_class_type_info
  .rodata._ZTISt9type_info
-                0x1003b654        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
-                0x1003b654                typeinfo for std::type_info
+                0x1003b648        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
+                0x1003b648                typeinfo for std::type_info
  .rodata._ZTSSt9type_info
-                0x1003b65c        0xd c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
-                0x1003b65c                typeinfo name for std::type_info
- *fill*         0x1003b669        0x3 
+                0x1003b650        0xd c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
+                0x1003b650                typeinfo name for std::type_info
+ *fill*         0x1003b65d        0x3 
  .rodata._ZN9__gnu_cxx26__throw_insufficient_spaceEPKcS1_.str1.4
-                0x1003b66c       0x69 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(snprintf_lite.o)
- *fill*         0x1003b6d5        0x3 
+                0x1003b660       0x69 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(snprintf_lite.o)
+ *fill*         0x1003b6c9        0x3 
  .rodata._ZN9__gnu_cxx15__concat_size_tEPcjj.str1.4
-                0x1003b6d8        0xb c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(snprintf_lite.o)
- *fill*         0x1003b6e3        0x1 
+                0x1003b6cc        0xb c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(snprintf_lite.o)
+ *fill*         0x1003b6d7        0x1 
  .rodata._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj.str1.4
-                0x1003b6e4       0x18 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003b6d8       0x18 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
  .rodata._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj.str1.4
-                0x1003b6fc       0x19 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
- *fill*         0x1003b715        0x3 
+                0x1003b6f0       0x19 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+ *fill*         0x1003b709        0x3 
  .rodata._ZNKSt9bad_alloc4whatEv.str1.4
-                0x1003b718        0xf c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(bad_alloc.o)
- *fill*         0x1003b727        0x1 
+                0x1003b70c        0xf c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(bad_alloc.o)
+ *fill*         0x1003b71b        0x1 
  .rodata._ZTISt9bad_alloc
-                0x1003b728        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(bad_alloc.o)
-                0x1003b728                typeinfo for std::bad_alloc
+                0x1003b71c        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(bad_alloc.o)
+                0x1003b71c                typeinfo for std::bad_alloc
  .rodata._ZTSSt9bad_alloc
-                0x1003b734        0xd c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(bad_alloc.o)
-                0x1003b734                typeinfo name for std::bad_alloc
- *fill*         0x1003b741        0x3 
+                0x1003b728        0xd c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(bad_alloc.o)
+                0x1003b728                typeinfo name for std::bad_alloc
+ *fill*         0x1003b735        0x3 
  .rodata._ZTVSt9bad_alloc
-                0x1003b744       0x14 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(bad_alloc.o)
-                0x1003b744                vtable for std::bad_alloc
+                0x1003b738       0x14 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(bad_alloc.o)
+                0x1003b738                vtable for std::bad_alloc
  .rodata._ZTIN10__cxxabiv117__class_type_infoE
-                0x1003b758        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
-                0x1003b758                typeinfo for __cxxabiv1::__class_type_info
+                0x1003b74c        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
+                0x1003b74c                typeinfo for __cxxabiv1::__class_type_info
  .rodata._ZTSN10__cxxabiv117__class_type_infoE
-                0x1003b764       0x22 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
-                0x1003b764                typeinfo name for __cxxabiv1::__class_type_info
- *fill*         0x1003b786        0x2 
+                0x1003b758       0x22 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
+                0x1003b758                typeinfo name for __cxxabiv1::__class_type_info
+ *fill*         0x1003b77a        0x2 
  .rodata._ZTVN10__cxxabiv117__class_type_infoE
-                0x1003b788       0x2c c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
-                0x1003b788                vtable for __cxxabiv1::__class_type_info
+                0x1003b77c       0x2c c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
+                0x1003b77c                vtable for __cxxabiv1::__class_type_info
  .rodata._ZNKSt9exception4whatEv.str1.4
-                0x1003b7b4        0xf c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
- *fill*         0x1003b7c3        0x1 
+                0x1003b7a8        0xf c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
+ *fill*         0x1003b7b7        0x1 
  .rodata._ZNKSt13bad_exception4whatEv.str1.4
-                0x1003b7c4       0x13 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
- *fill*         0x1003b7d7        0x1 
+                0x1003b7b8       0x13 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
+ *fill*         0x1003b7cb        0x1 
  .rodata._ZTIN10__cxxabiv115__forced_unwindE
-                0x1003b7d8        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
-                0x1003b7d8                typeinfo for __cxxabiv1::__forced_unwind
+                0x1003b7cc        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
+                0x1003b7cc                typeinfo for __cxxabiv1::__forced_unwind
  .rodata._ZTIN10__cxxabiv119__foreign_exceptionE
-                0x1003b7e0        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
-                0x1003b7e0                typeinfo for __cxxabiv1::__foreign_exception
+                0x1003b7d4        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
+                0x1003b7d4                typeinfo for __cxxabiv1::__foreign_exception
  .rodata._ZTISt13bad_exception
-                0x1003b7e8        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
-                0x1003b7e8                typeinfo for std::bad_exception
+                0x1003b7dc        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
+                0x1003b7dc                typeinfo for std::bad_exception
  .rodata._ZTISt9exception
-                0x1003b7f4        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
-                0x1003b7f4                typeinfo for std::exception
+                0x1003b7e8        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
+                0x1003b7e8                typeinfo for std::exception
  .rodata._ZTSN10__cxxabiv115__forced_unwindE
-                0x1003b7fc       0x20 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
-                0x1003b7fc                typeinfo name for __cxxabiv1::__forced_unwind
+                0x1003b7f0       0x20 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
+                0x1003b7f0                typeinfo name for __cxxabiv1::__forced_unwind
  .rodata._ZTSN10__cxxabiv119__foreign_exceptionE
-                0x1003b81c       0x24 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
-                0x1003b81c                typeinfo name for __cxxabiv1::__foreign_exception
+                0x1003b810       0x24 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
+                0x1003b810                typeinfo name for __cxxabiv1::__foreign_exception
  .rodata._ZTSSt13bad_exception
-                0x1003b840       0x12 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
-                0x1003b840                typeinfo name for std::bad_exception
- *fill*         0x1003b852        0x2 
+                0x1003b834       0x12 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
+                0x1003b834                typeinfo name for std::bad_exception
+ *fill*         0x1003b846        0x2 
  .rodata._ZTSSt9exception
-                0x1003b854        0xd c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
-                0x1003b854                typeinfo name for std::exception
- *fill*         0x1003b861        0x3 
+                0x1003b848        0xd c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
+                0x1003b848                typeinfo name for std::exception
+ *fill*         0x1003b855        0x3 
  .rodata._ZTVSt13bad_exception
-                0x1003b864       0x14 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
-                0x1003b864                vtable for std::bad_exception
+                0x1003b858       0x14 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
+                0x1003b858                vtable for std::bad_exception
  .rodata._ZL28read_encoded_value_with_basehjPKhPj
-                0x1003b878       0x34 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_personality.o)
+                0x1003b86c       0x34 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_personality.o)
  .rodata._ZN9__gnu_cxx27__verbose_terminate_handlerEv.str1.4
-                0x1003b8ac       0x94 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(vterminate.o)
+                0x1003b8a0       0x94 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(vterminate.o)
  .rodata._ZTISt11logic_error
-                0x1003b940        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
-                0x1003b940                typeinfo for std::logic_error
+                0x1003b934        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
+                0x1003b934                typeinfo for std::logic_error
  .rodata._ZTISt12length_error
-                0x1003b94c        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
-                0x1003b94c                typeinfo for std::length_error
+                0x1003b940        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
+                0x1003b940                typeinfo for std::length_error
  .rodata._ZTISt12out_of_range
-                0x1003b958        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
-                0x1003b958                typeinfo for std::out_of_range
+                0x1003b94c        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
+                0x1003b94c                typeinfo for std::out_of_range
  .rodata._ZTSSt11logic_error
-                0x1003b964       0x10 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
-                0x1003b964                typeinfo name for std::logic_error
+                0x1003b958       0x10 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
+                0x1003b958                typeinfo name for std::logic_error
  .rodata._ZTSSt12length_error
-                0x1003b974       0x11 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
-                0x1003b974                typeinfo name for std::length_error
- *fill*         0x1003b985        0x3 
+                0x1003b968       0x11 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
+                0x1003b968                typeinfo name for std::length_error
+ *fill*         0x1003b979        0x3 
  .rodata._ZTSSt12out_of_range
-                0x1003b988       0x11 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
-                0x1003b988                typeinfo name for std::out_of_range
- *fill*         0x1003b999        0x3 
+                0x1003b97c       0x11 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
+                0x1003b97c                typeinfo name for std::out_of_range
+ *fill*         0x1003b98d        0x3 
  .rodata._ZTVSt11logic_error
-                0x1003b99c       0x14 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
-                0x1003b99c                vtable for std::logic_error
+                0x1003b990       0x14 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
+                0x1003b990                vtable for std::logic_error
  .rodata._ZTVSt12length_error
-                0x1003b9b0       0x14 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
-                0x1003b9b0                vtable for std::length_error
+                0x1003b9a4       0x14 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
+                0x1003b9a4                vtable for std::length_error
  .rodata._ZTVSt12out_of_range
-                0x1003b9c4       0x14 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
-                0x1003b9c4                vtable for std::out_of_range
+                0x1003b9b8       0x14 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
+                0x1003b9b8                vtable for std::out_of_range
  .rodata._ZNSt11logic_errorC2EPKc.str1.4
-                0x1003b9d8       0x2a c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(cow-stdexcept.o)
- *fill*         0x1003ba02        0x2 
+                0x1003b9cc       0x2a c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(cow-stdexcept.o)
+ *fill*         0x1003b9f6        0x2 
  .rodata._ZNSs4_Rep9_S_createEjjRKSaIcE.str1.4
-                0x1003ba04       0x18 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(cow-string-inst.o)
- .rodata        0x1003ba1c     0x1144 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(cp-demangle.o)
+                0x1003b9f8       0x18 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(cow-string-inst.o)
+ .rodata        0x1003ba10     0x1144 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(cp-demangle.o)
  .rodata.str1.4
-                0x1003cb60      0x86d c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(cp-demangle.o)
+                0x1003cb54      0x86d c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(cp-demangle.o)
                                 0x8e9 (size before relaxing)
- *fill*         0x1003d3cd        0x3 
+ *fill*         0x1003d3c1        0x3 
  .rodata._ctype_
-                0x1003d3d0      0x101 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-ctype_.o)
-                0x1003d3d0                _ctype_
- *fill*         0x1003d4d1        0x3 
+                0x1003d3c4      0x101 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-ctype_.o)
+                0x1003d3c4                _ctype_
+ *fill*         0x1003d4c5        0x3 
  .rodata._global_impure_ptr
-                0x1003d4d4        0x4 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-impure.o)
-                0x1003d4d4                _global_impure_ptr
+                0x1003d4c8        0x4 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-impure.o)
+                0x1003d4c8                _global_impure_ptr
  .rodata._strtod_l.str1.4
-                0x1003d4d8        0xa c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strtod.o)
+                0x1003d4cc        0xa c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strtod.o)
                                  0x11 (size before relaxing)
- *fill*         0x1003d4e2        0x2 
+ *fill*         0x1003d4d6        0x2 
  .rodata._strtod_l
-                0x1003d4e4       0xd0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strtod.o)
- .rodata.fpi.1  0x1003d5b4       0x14 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strtod.o)
+                0x1003d4d8       0xd0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strtod.o)
+ .rodata.fpi.1  0x1003d5a8       0x14 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strtod.o)
  .rodata.fpinan.0
-                0x1003d5c8       0x14 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strtod.o)
- *fill*         0x1003d5dc        0x4 
+                0x1003d5bc       0x14 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strtod.o)
  .rodata.tinytens
-                0x1003d5e0       0x28 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strtod.o)
+                0x1003d5d0       0x28 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strtod.o)
  .rodata.__gethex.str1.4
-                0x1003d608       0x9a c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-gdtoa-gethex.o)
- *fill*         0x1003d6a2        0x2 
+                0x1003d5f8       0x9a c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-gdtoa-gethex.o)
+ *fill*         0x1003d692        0x2 
  .rodata.__hexdig
-                0x1003d6a4      0x100 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-gdtoa-gethex.o)
-                0x1003d6a4                __hexdig
+                0x1003d694      0x100 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-gdtoa-gethex.o)
+                0x1003d694                __hexdig
  .rodata.str1.4
-                0x1003d7a4        0x5 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-lnumeric.o)
+                0x1003d794        0x5 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-lnumeric.o)
  .rodata._C_numeric_locale
-                0x1003d7a4        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-lnumeric.o)
-                0x1003d7a4                _C_numeric_locale
+                0x1003d794        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-lnumeric.o)
+                0x1003d794                _C_numeric_locale
  .rodata._setlocale_r.str1.4
-                0x1003d7b0        0x6 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-locale.o)
+                0x1003d7a0        0x6 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-locale.o)
                                   0xd (size before relaxing)
  .rodata.str1.4
-                0x1003d7b6        0x2 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-locale.o)
- *fill*         0x1003d7b6        0x2 
+                0x1003d7a6        0x2 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-locale.o)
+ *fill*         0x1003d7a6        0x2 
  .rodata.__multadd.str1.4
-                0x1003d7b8       0x7f c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-mprec.o)
+                0x1003d7a8       0x7f c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-mprec.o)
                                  0x93 (size before relaxing)
- *fill*         0x1003d837        0x1 
+ *fill*         0x1003d827        0x1 
  .rodata.__mprec_bigtens
-                0x1003d838       0x28 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-mprec.o)
-                0x1003d838                __mprec_bigtens
+                0x1003d828       0x28 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-mprec.o)
+                0x1003d828                __mprec_bigtens
  .rodata.__mprec_tens
-                0x1003d860       0xc8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-mprec.o)
-                0x1003d860                __mprec_tens
- .rodata.p05.0  0x1003d928        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-mprec.o)
-                0x1003d934                . = ALIGN (0x4)
+                0x1003d850       0xc8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-mprec.o)
+                0x1003d850                __mprec_tens
+ .rodata.p05.0  0x1003d918        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-mprec.o)
+                0x1003d924                . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x1003d934                . = ALIGN (0x4)
+                0x1003d924                . = ALIGN (0x4)
 
-.ARM.extab      0x1003d934      0x18c
+.ARM.extab      0x1003d924      0x18c
  *(.ARM.extab* .gnu.linkonce.armextab.*)
  .ARM.extab.text._ZNK10__cxxabiv120__si_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
-                0x1003d934        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
+                0x1003d924        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
  .ARM.extab.text.unlikely._ZSt19__throw_logic_errorPKc
-                0x1003d940       0x14 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(functexcept.o)
+                0x1003d930       0x14 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(functexcept.o)
  .ARM.extab.text.unlikely._ZSt20__throw_length_errorPKc
-                0x1003d954       0x14 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(functexcept.o)
+                0x1003d944       0x14 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(functexcept.o)
  .ARM.extab.text._ZSt24__throw_out_of_range_fmtPKcz
-                0x1003d968       0x1c c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(functexcept.o)
+                0x1003d958       0x1c c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(functexcept.o)
  .ARM.extab.text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj
-                0x1003d984        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003d974        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
  .ARM.extab.text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_S_copyEPcPKcj
-                0x1003d984        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003d974        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
  .ARM.extab.text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_
-                0x1003d984        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003d974        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
  .ARM.extab.text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_mutateEjjPKcj
-                0x1003d990        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003d980        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
  .ARM.extab.text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE8_M_eraseEjj
-                0x1003d99c        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003d98c        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
  .ARM.extab.text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj
-                0x1003d99c        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003d98c        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
  .ARM.extab.text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj
-                0x1003d9a8        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003d998        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
  .ARM.extab.text._ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5rfindEPKcjj
-                0x1003d9a8        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003d998        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
  .ARM.extab.text._ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13find_first_ofEPKcjj
-                0x1003d9a8        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003d998        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
  .ARM.extab.text._ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE17find_first_not_ofEPKcjj
-                0x1003d9a8        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003d998        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
  .ARM.extab.text._ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16find_last_not_ofEPKcjj
-                0x1003d9a8        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003d998        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
  .ARM.extab.text._ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEPKc
-                0x1003d9a8        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003d998        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
  .ARM.extab.text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2ERKS4_
-                0x1003d9a8        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003d998        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
  .ARM.extab.text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2EPKcRKS3_
-                0x1003d9a8        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003d998        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
  .ARM.extab.text.__cxa_type_match
-                0x1003d9a8        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_arm.o)
+                0x1003d998        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_arm.o)
  .ARM.extab.text.__cxa_begin_catch
-                0x1003d9b4        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_catch.o)
+                0x1003d9a4        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_catch.o)
  .ARM.extab.text._ZL28read_encoded_value_with_basehjPKhPj
-                0x1003d9c0        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_personality.o)
+                0x1003d9b0        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_personality.o)
  .ARM.extab.text.__gxx_personality_v0
-                0x1003d9cc       0x28 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_personality.o)
+                0x1003d9bc       0x28 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_personality.o)
  .ARM.extab.text._ZN10__cxxabiv111__terminateEPFvvE
-                0x1003d9f4       0x28 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_terminate.o)
+                0x1003d9e4       0x28 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_terminate.o)
  .ARM.extab.text._ZN9__gnu_cxx27__verbose_terminate_handlerEv
-                0x1003da1c       0x34 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(vterminate.o)
+                0x1003da0c       0x34 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(vterminate.o)
  .ARM.extab.text._ZNSt11logic_errorC2EPKc
-                0x1003da50       0x18 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(cow-stdexcept.o)
+                0x1003da40       0x18 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(cow-stdexcept.o)
  .ARM.extab.text._ZNSs4_Rep9_S_createEjjRKSaIcE
-                0x1003da68        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(cow-string-inst.o)
+                0x1003da58        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(cow-string-inst.o)
  .ARM.extab.text._ZNSs4_Rep10_M_destroyERKSaIcE
-                0x1003da68        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(cow-string-inst.o)
+                0x1003da58        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(cow-string-inst.o)
  .ARM.extab.text.unlikely.__cxa_call_unexpected
-                0x1003da68       0x28 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_call.o)
- .ARM.extab     0x1003da90       0x24 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
- .ARM.extab     0x1003dab4        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(pr-support.o)
-                0x1003dac0                __exidx_start = .
+                0x1003da58       0x28 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_call.o)
+ .ARM.extab     0x1003da80       0x24 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+ .ARM.extab     0x1003daa4        0xc c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(pr-support.o)
+                0x1003dab0                __exidx_start = .
 
-.ARM.exidx      0x1003dac0      0x260
+.ARM.exidx      0x1003dab0      0x260
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
  .ARM.exidx.text.__cxa_guard_acquire
-                0x1003dac0        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(guard.o)
+                0x1003dab0        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(guard.o)
  .ARM.exidx.text.__cxa_guard_release
-                0x1003dac8        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(guard.o)
+                0x1003dab8        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(guard.o)
  .ARM.exidx.text._ZN9__gnu_cxx20recursive_init_errorD2Ev
-                0x1003dad0        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(guard_error.o)
+                0x1003dac0        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(guard_error.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZN9__gnu_cxx20recursive_init_errorD0Ev
-                0x1003dad0        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(guard_error.o)
+                0x1003dac0        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(guard_error.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZN9__gnu_cxx20recursive_init_errorC2Ev
-                0x1003dad0        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(guard_error.o)
+                0x1003dac0        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(guard_error.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZN10__cxxabiv120__si_class_type_infoD2Ev
-                0x1003dad0        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
+                0x1003dac0        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZN10__cxxabiv120__si_class_type_infoD0Ev
-                0x1003dad0        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
+                0x1003dac0        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcEiPKvPKNS_17__class_type_infoES2_
-                0x1003dad0        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
+                0x1003dac0        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
  .ARM.exidx.text._ZNK10__cxxabiv120__si_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
-                0x1003dad8        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
+                0x1003dac8        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
  .ARM.exidx.text._ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE
-                0x1003dae0        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
+                0x1003dad0        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(si_class_type_info.o)
  .ARM.exidx.text._ZNSt9type_infoD2Ev
-                0x1003dae8        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
+                0x1003dad8        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
  .ARM.exidx.text._ZNKSt9type_info14__is_pointer_pEv
-                0x1003daf0        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
+                0x1003dae0        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNKSt9type_infoeqERKS_
-                0x1003daf0        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
+                0x1003dae0        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(tinfo.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.unlikely._ZSt17__throw_bad_allocv
-                0x1003daf0        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(functexcept.o)
+                0x1003dae0        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(functexcept.o)
  .ARM.exidx.text.unlikely._ZSt19__throw_logic_errorPKc
-                0x1003daf8        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(functexcept.o)
+                0x1003dae8        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(functexcept.o)
  .ARM.exidx.text.unlikely._ZSt20__throw_length_errorPKc
-                0x1003db00        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(functexcept.o)
+                0x1003daf0        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(functexcept.o)
  .ARM.exidx.text._ZSt24__throw_out_of_range_fmtPKcz
-                0x1003db08        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(functexcept.o)
+                0x1003daf8        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(functexcept.o)
  .ARM.exidx.text._ZN9__gnu_cxx26__throw_insufficient_spaceEPKcS1_
-                0x1003db10        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(snprintf_lite.o)
+                0x1003db00        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(snprintf_lite.o)
  .ARM.exidx.text._ZN9__gnu_cxx15__concat_size_tEPcjj
-                0x1003db18        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(snprintf_lite.o)
+                0x1003db08        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(snprintf_lite.o)
  .ARM.exidx.text._ZN9__gnu_cxx15__snprintf_liteEPcjPKcSt9__va_list
-                0x1003db20        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(snprintf_lite.o)
+                0x1003db10        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(snprintf_lite.o)
  .ARM.exidx.text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj
-                0x1003db28        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003db18        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
  .ARM.exidx.text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_S_copyEPcPKcj
-                0x1003db30        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003db20        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
  .ARM.exidx.text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_
-                0x1003db38        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003db28        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
  .ARM.exidx.text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_mutateEjjPKcj
-                0x1003db40        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003db30        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
  .ARM.exidx.text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE8_M_eraseEjj
-                0x1003db48        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003db38        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
  .ARM.exidx.text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj
-                0x1003db50        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003db40        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
  .ARM.exidx.text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj
-                0x1003db58        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003db48        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
  .ARM.exidx.text._ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5rfindEPKcjj
-                0x1003db60        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003db50        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
  .ARM.exidx.text._ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13find_first_ofEPKcjj
-                0x1003db68        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003db58        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE17find_first_not_ofEPKcjj
-                0x1003db68        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003db58        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16find_last_not_ofEPKcjj
-                0x1003db68        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003db58        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEPKc
-                0x1003db68        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003db58        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2ERKS4_
-                0x1003db68        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003db58        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
  .ARM.exidx.text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2EPKcRKS3_
-                0x1003db70        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
+                0x1003db60        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(string-inst.o)
  .ARM.exidx.text._ZNKSt9bad_alloc4whatEv
-                0x1003db78        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(bad_alloc.o)
+                0x1003db68        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(bad_alloc.o)
  .ARM.exidx.text._ZNSt9bad_allocD2Ev
-                0x1003db80        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(bad_alloc.o)
+                0x1003db70        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(bad_alloc.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNSt9bad_allocD0Ev
-                0x1003db80        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(bad_alloc.o)
+                0x1003db70        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(bad_alloc.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv
-                0x1003db80        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
+                0x1003db70        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
  .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info20__do_find_public_srcEiPKvPKS0_S2_
-                0x1003db88        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
+                0x1003db78        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
  .ARM.exidx.text._ZN10__cxxabiv117__class_type_infoD2Ev
-                0x1003db90        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
+                0x1003db80        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZN10__cxxabiv117__class_type_infoD0Ev
-                0x1003db90        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
+                0x1003db80        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info12__do_dyncastEiNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE
-                0x1003db90        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
+                0x1003db80        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE
-                0x1003db90        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
+                0x1003db80        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj
-                0x1003db90        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
+                0x1003db80        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(class_type_info.o)
  .ARM.exidx.text._ZdlPvj
-                0x1003db98        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(del_ops.o)
+                0x1003db88        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(del_ops.o)
  .ARM.exidx.text._ZN12_GLOBAL__N_14pool4freeEPv.constprop.0
-                0x1003dba0        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_alloc.o)
+                0x1003db90        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_alloc.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZN12_GLOBAL__N_14pool8allocateEj.constprop.0
-                0x1003dba0        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_alloc.o)
+                0x1003db90        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_alloc.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.__cxa_allocate_exception
-                0x1003dba0        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_alloc.o)
+                0x1003db90        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_alloc.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.__cxa_free_exception
-                0x1003dba0        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_alloc.o)
+                0x1003db90        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_alloc.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.startup._GLOBAL__sub_I__ZN9__gnu_cxx9__freeresEv
-                0x1003dba0        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_alloc.o)
+                0x1003db90        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_alloc.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.__cxa_type_match
-                0x1003dba0        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_arm.o)
+                0x1003db90        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_arm.o)
  .ARM.exidx.text.__cxa_begin_cleanup
-                0x1003dba8        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_arm.o)
+                0x1003db98        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_arm.o)
  .ARM.exidx.text.__gnu_end_cleanup
-                0x1003dbb0        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_arm.o)
+                0x1003dba0        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_arm.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.__cxa_begin_catch
-                0x1003dbb0        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_catch.o)
+                0x1003dba0        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_catch.o)
  .ARM.exidx.text.__cxa_end_catch
-                0x1003dbb8        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_catch.o)
+                0x1003dba8        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_catch.o)
  .ARM.exidx.text._ZNSt9exceptionD2Ev
-                0x1003dbc0        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
+                0x1003dbb0        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
  .ARM.exidx.text._ZNSt13bad_exceptionD2Ev
-                0x1003dbc8        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
+                0x1003dbb8        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNKSt9exception4whatEv
-                0x1003dbc8        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
+                0x1003dbb8        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNKSt13bad_exception4whatEv
-                0x1003dbc8        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
+                0x1003dbb8        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNSt13bad_exceptionD0Ev
-                0x1003dbc8        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
+                0x1003dbb8        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_exception.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.__cxa_get_globals_fast
-                0x1003dbc8        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_globals.o)
+                0x1003dbb8        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_globals.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.__cxa_get_globals
-                0x1003dbc8        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_globals.o)
+                0x1003dbb8        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_globals.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZL28read_encoded_value_with_basehjPKhPj
-                0x1003dbc8        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_personality.o)
+                0x1003dbb8        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_personality.o)
  .ARM.exidx.text._ZL21base_of_encoded_valuehP15_Unwind_Context
-                0x1003dbd0        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_personality.o)
+                0x1003dbc0        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_personality.o)
  .ARM.exidx.text._ZL17parse_lsda_headerP15_Unwind_ContextPKhP16lsda_header_info
-                0x1003dbd8        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_personality.o)
+                0x1003dbc8        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_personality.o)
  .ARM.exidx.text.__gxx_personality_v0
-                0x1003dbe0        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_personality.o)
+                0x1003dbd0        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_personality.o)
  .ARM.exidx.text._ZN10__cxxabiv111__terminateEPFvvE
-                0x1003dbe8        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_terminate.o)
+                0x1003dbd8        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_terminate.o)
  .ARM.exidx.text._ZSt9terminatev
-                0x1003dbf0        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_terminate.o)
+                0x1003dbe0        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_terminate.o)
  .ARM.exidx.text._ZN10__cxxabiv112__unexpectedEPFvvE
-                0x1003dbf8        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_terminate.o)
+                0x1003dbe8        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_terminate.o)
  .ARM.exidx.text._ZSt10unexpectedv
-                0x1003dc00        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_terminate.o)
+                0x1003dbf0        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_terminate.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZSt13get_terminatev
-                0x1003dc00        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_terminate.o)
+                0x1003dbf0        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_terminate.o)
  .ARM.exidx.text._ZSt14get_unexpectedv
-                0x1003dc08        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_terminate.o)
+                0x1003dbf8        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_terminate.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZL23__gxx_exception_cleanup19_Unwind_Reason_CodeP21_Unwind_Control_Block
-                0x1003dc08        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_throw.o)
+                0x1003dbf8        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_throw.o)
  .ARM.exidx.text.__cxa_init_primary_exception
-                0x1003dc10        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_throw.o)
+                0x1003dc00        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_throw.o)
  .ARM.exidx.text.__cxa_throw
-                0x1003dc18        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_throw.o)
+                0x1003dc08        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_throw.o)
  .ARM.exidx.text.__cxa_rethrow
-                0x1003dc20        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_throw.o)
+                0x1003dc10        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_throw.o)
  .ARM.exidx.text._ZN9__gnu_cxx27__verbose_terminate_handlerEv
-                0x1003dc28        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(vterminate.o)
+                0x1003dc18        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(vterminate.o)
  .ARM.exidx.text._ZNKSt11logic_error4whatEv
-                0x1003dc30        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
+                0x1003dc20        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
  .ARM.exidx.text._ZNSt11logic_errorD2Ev
-                0x1003dc38        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
+                0x1003dc28        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNSt12length_errorD2Ev
-                0x1003dc38        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
+                0x1003dc28        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNSt12out_of_rangeD2Ev
-                0x1003dc38        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
+                0x1003dc28        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNSt11logic_errorD0Ev
-                0x1003dc38        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
+                0x1003dc28        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNSt12out_of_rangeD0Ev
-                0x1003dc38        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
+                0x1003dc28        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNSt12length_errorD0Ev
-                0x1003dc38        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
+                0x1003dc28        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(stdexcept.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNSt11logic_errorC2EPKc
-                0x1003dc38        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(cow-stdexcept.o)
+                0x1003dc28        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(cow-stdexcept.o)
  .ARM.exidx.text._ZNSt12length_errorC2EPKc
-                0x1003dc40        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(cow-stdexcept.o)
+                0x1003dc30        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(cow-stdexcept.o)
  .ARM.exidx.text._ZNSt12out_of_rangeC2EPKc
-                0x1003dc48        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(cow-stdexcept.o)
+                0x1003dc38        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(cow-stdexcept.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNSs4_Rep9_S_createEjjRKSaIcE
-                0x1003dc48        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(cow-string-inst.o)
+                0x1003dc38        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(cow-string-inst.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZNSs4_Rep10_M_destroyERKSaIcE
-                0x1003dc48        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(cow-string-inst.o)
+                0x1003dc38        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(cow-string-inst.o)
  .ARM.exidx.text._ZN10__cxxabiv1L24__is_gxx_exception_classEPc
-                0x1003dc50        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_call.o)
+                0x1003dc40        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_call.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.__cxa_call_terminate
-                0x1003dc50        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_call.o)
+                0x1003dc40        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_call.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.unlikely.__cxa_call_unexpected
-                0x1003dc50        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_call.o)
+                0x1003dc40        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_call.o)
  .ARM.exidx.text.__cxa_current_exception_type
-                0x1003dc58        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_type.o)
- .ARM.exidx     0x1003dc60       0x90 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
+                0x1003dc48        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(eh_type.o)
+ .ARM.exidx     0x1003dc50       0x90 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(unwind-arm.o)
                                  0xd8 (size before relaxing)
- .ARM.exidx     0x1003dcf0       0x28 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(pr-support.o)
+ .ARM.exidx     0x1003dce0       0x28 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(pr-support.o)
                                  0x38 (size before relaxing)
  .ARM.exidx.text.unlikely
-                0x1003dd18        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(pr-support.o)
+                0x1003dd08        0x8 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(pr-support.o)
                                  0x10 (size before relaxing)
-                0x1003dd20                __exidx_end = .
+                0x1003dd10                __exidx_end = .
 
-.rel.dyn        0x1003dd20        0x0
- .rel.iplt      0x1003dd20        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x1003dd20                . = ALIGN (0x4)
-                0x1003dd20                __binary_info_start = .
+.rel.dyn        0x1003dd10        0x0
+ .rel.iplt      0x1003dd10        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x1003dd10                . = ALIGN (0x4)
+                0x1003dd10                __binary_info_start = .
 
-.binary_info    0x1003dd20       0x24
+.binary_info    0x1003dd10       0x24
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr72
-                0x1003dd20        0x4 CMakeFiles/ei_rak11310_firmware.dir/edge-impulse/ingestion-sdk-platform/sensors/ei_inertialsensor.cpp.obj
+                0x1003dd10        0x4 CMakeFiles/ei_rak11310_firmware.dir/edge-impulse/ingestion-sdk-platform/sensors/ei_inertialsensor.cpp.obj
  .binary_info.keep.__bi_ptr22
-                0x1003dd24        0x4 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1003dd14        0x4 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x1003dd28        0x4 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1003dd18        0x4 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x1003dd2c        0x4 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1003dd1c        0x4 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x1003dd30        0x4 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1003dd20        0x4 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x1003dd34        0x4 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1003dd24        0x4 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x1003dd38        0x4 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1003dd28        0x4 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr81
-                0x1003dd3c        0x4 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1003dd2c        0x4 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr118
-                0x1003dd40        0x4 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x1003dd44                __binary_info_end = .
-                0x1003dd44                . = ALIGN (0x4)
-                0x1003dd44                __etext = .
+                0x1003dd30        0x4 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x1003dd34                __binary_info_end = .
+                0x1003dd34                . = ALIGN (0x4)
+                0x1003dd34                __etext = .
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -30657,7 +30658,7 @@ LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../
                 0x20000000       0xc0 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x20000000                ram_vector_table
 
-.data           0x200000c0     0x240c load address 0x1003dd44
+.data           0x200000c0     0x240c load address 0x1003dd34
                 0x200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -30903,27 +30904,27 @@ LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../
                 0x200024cc                . = ALIGN (0x4)
                 0x200024cc                __data_end__ = .
 
-.igot.plt       0x200024cc        0x0 load address 0x10040150
+.igot.plt       0x200024cc        0x0 load address 0x10040140
  .igot.plt      0x200024cc        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x200024cc        0x0 load address 0x10040150
+                0x200024cc        0x0 load address 0x10040140
                 0x200024cc                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x20040000        0x0 load address 0x10040150
+.scratch_x      0x20040000        0x0 load address 0x10040140
                 0x20040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                . = ALIGN (0x4)
                 0x20040000                __scratch_x_end__ = .
-                0x10040150                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x10040140                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x10040150
+.scratch_y      0x20041000        0x0 load address 0x10040140
                 0x20041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                . = ALIGN (0x4)
                 0x20041000                __scratch_y_end__ = .
-                0x10040150                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x10040140                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x200024d0    0x10290
                 0x200024d0                . = ALIGN (0x4)
@@ -31270,8 +31271,8 @@ LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x10040150        0x0
-                0x10040150                __flash_binary_end = .
+.flash_end      0x10040140        0x0
+                0x10040140                __flash_binary_end = .
                 0x20040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -32123,8 +32124,7 @@ LOAD CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_comm
 LOAD CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 LOAD CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
 LOAD CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-LOAD freertos\libfreertos.a
-LOAD C:\Users\MCMCHRIS\AppData\Local\Temp\ccccSTNl.o
+LOAD C:\Users\MCMCHRIS\AppData\Local\Temp\ccu4bvM8.o
 LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -32405,7 +32405,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x000015ba       0x2c CMakeFiles/ei_rak11310_firmware.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .ARM.attributes
-                0x000015e6       0x22 C:\Users\MCMCHRIS\AppData\Local\Temp\ccccSTNl.o
+                0x000015e6       0x22 C:\Users\MCMCHRIS\AppData\Local\Temp\ccu4bvM8.o
  .ARM.attributes
                 0x00001608       0x2c c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a(guard.o)
  .ARM.attributes

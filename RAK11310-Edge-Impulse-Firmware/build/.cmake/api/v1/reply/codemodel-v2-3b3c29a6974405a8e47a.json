@@ -8,8 +8,7 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1,
-						74
+						1
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -929,21 +928,6 @@
 					"parentIndex" : 1,
 					"projectIndex" : 1,
 					"source" : "C:/VSARM/sdk/pico/pico-sdk/docs"
-				},
-				{
-					"build" : "freertos",
-					"jsonFile" : "directory-freertos-Debug-1f54ea588a4ef90513d8.json",
-					"minimumCMakeVersion" : 
-					{
-						"string" : "3.13.1"
-					},
-					"parentIndex" : 0,
-					"projectIndex" : 0,
-					"source" : "freertos",
-					"targetIndexes" : 
-					[
-						9
-					]
 				}
 			],
 			"name" : "Debug",
@@ -956,16 +940,14 @@
 					],
 					"directoryIndexes" : 
 					[
-						0,
-						74
+						0
 					],
 					"name" : "ei_rak11310_firmware",
 					"targetIndexes" : 
 					[
 						0,
 						7,
-						8,
-						9
+						8
 					]
 				},
 				{
@@ -1063,7 +1045,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ELF2UF2Build::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ELF2UF2Build-Debug-e20061365feeedd1b7eb.json",
+					"jsonFile" : "target-ELF2UF2Build-Debug-873500af36c33e1a6407.json",
 					"name" : "ELF2UF2Build",
 					"projectIndex" : 0
 				},
@@ -1112,22 +1094,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ei_rak11310_firmware::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ei_rak11310_firmware-Debug-06b6970529f5e86fa76e.json",
+					"jsonFile" : "target-ei_rak11310_firmware-Debug-49bb6bd4fa40782f63db.json",
 					"name" : "ei_rak11310_firmware",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ei_rak11310_firmware_pdm_pio_h::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ei_rak11310_firmware_pdm_pio_h-Debug-1fdc9d7bd591b32041f9.json",
+					"jsonFile" : "target-ei_rak11310_firmware_pdm_pio_h-Debug-2758eda6f3a1e105896f.json",
 					"name" : "ei_rak11310_firmware_pdm_pio_h",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 74,
-					"id" : "freertos::@2c328eccfcd2443a4ea6",
-					"jsonFile" : "target-freertos-Debug-5d210e0ab86a0ff086ba.json",
-					"name" : "freertos",
 					"projectIndex" : 0
 				}
 			]

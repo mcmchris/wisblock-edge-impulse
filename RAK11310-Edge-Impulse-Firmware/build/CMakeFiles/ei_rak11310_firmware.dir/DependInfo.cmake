@@ -159,9 +159,6 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "C:/VSARM/sdk/pico/pico-sdk/src/common/pico_usb_reset_interface/include"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_adc/include"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
-  "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/freertos/."
-  "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/freertos/FreeRTOS-Kernel/include"
-  "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/freertos/FreeRTOS-Kernel/portable/GCC/ARM_CM0"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_dma/include"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/include"
   )
@@ -1004,7 +1001,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/freertos/CMakeFiles/freertos.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

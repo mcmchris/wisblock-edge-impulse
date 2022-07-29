@@ -24,13 +24,7 @@
 
 #include "pico/stdlib.h"
 
-extern "C"
-{
-}
 #include "PDM.h"
-#include <FreeRTOS.h>
-#include <task.h>
-#include <queue.h>
 #include "edge-impulse-sdk/dsp/numpy.hpp"
 
 /* Constant defines -------------------------------------------------------- */

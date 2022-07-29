@@ -25,7 +25,10 @@
 #include "driver/gpio.h"
 
 #define GPIO_OUTPUT_LED_GREEN GPIO_NUM_12
-#define GPIO_OUTPUT_PIN_SEL (1ULL << GPIO_OUTPUT_LED_GREEN)
+#define GPIO_OUTPUT_LED_BLUE GPIO_NUM_2
+#define GPIO_OUTPUT_RELAY GPIO_NUM_18
+
+#define GPIO_OUTPUT_PIN_SEL ((1ULL << GPIO_OUTPUT_LED_GREEN) | (1ULL << GPIO_OUTPUT_LED_BLUE))
 
 #if defined(EI_CLASSIFIER_SENSOR) && EI_CLASSIFIER_SENSOR == EI_CLASSIFIER_SENSOR_MICROPHONE
 
@@ -51,6 +54,9 @@ static bool continuous_mode = false;
 static bool debug_mode = false;
 static float samples_circ_buff[EI_CLASSIFIER_DSP_INPUT_FRAME_SIZE];
 static int samples_wr_index = 0;
+static int keyword = 0;
+static int out_status = 0;
+unsigned long previousMillis = 0; // will store last time keyword was said
 
 static void display_results(ei_impulse_result_t *result)
 {
@@ -61,21 +67,49 @@ static void display_results(ei_impulse_result_t *result)
         ei_printf("    %s: \t%f\r\n", result->classification[ix].label, result->classification[ix].value);
     }
 
-    if (result->classification[0].value > 0.85)
+    if (result->classification[0].value > 0.20 && keyword == 0)
     {
+
         // zero-initialize the config structure.
-        gpio_config_t io_conf = {};
+        /*gpio_config_t io_conf = {};
         // set as output mode
         io_conf.mode = GPIO_MODE_OUTPUT;
         // bit mask of the pins that you want to set,e.g.GPIO18/19
         io_conf.pin_bit_mask = GPIO_OUTPUT_PIN_SEL;
-        gpio_config(&io_conf);
-        ei_printf("Hey RAKstar heard!!!\n");
-        // turn the LED on (HIGH is the voltage level)
+        gpio_config(&io_conf);*/
         gpio_set_level(GPIO_OUTPUT_LED_GREEN, 1);
-        ei_sleep(1000);
-        gpio_set_level(GPIO_OUTPUT_LED_GREEN, 0);
+        keyword = 1;
+        // ei_sleep(500);
     }
+    if (result->classification[2].value > 0.20 && keyword == 1 && out_status == 1) // Turn off the light
+    {
+        keyword = 0;
+        gpio_set_level(GPIO_OUTPUT_LED_BLUE, 0);
+        gpio_set_level(GPIO_OUTPUT_LED_GREEN, 0);
+        gpio_set_level(GPIO_OUTPUT_RELAY, 0);
+        out_status = 0;
+        // ei_sleep(500);
+    }
+    if (result->classification[3].value > 0.20 && keyword == 1 && out_status == 0) // Turn on the light
+    {
+        keyword = 0;
+        gpio_set_level(GPIO_OUTPUT_RELAY, 1);
+        gpio_set_level(GPIO_OUTPUT_LED_BLUE, 1);
+        gpio_set_level(GPIO_OUTPUT_LED_GREEN, 0);
+        out_status = 1;
+        // ei_sleep(500);
+    }
+
+    unsigned long currentMillis = ei_read_timer_ms();
+
+    if (currentMillis - previousMillis >= 10000 && keyword == 1)
+    {
+        // save the last time you said the keyword
+        previousMillis = currentMillis;
+        gpio_set_level(GPIO_OUTPUT_LED_GREEN, 0);
+        keyword = 0;
+    }
+
 #if EI_CLASSIFIER_HAS_ANOMALY == 1
     ei_printf("    anomaly score: %f\r\n", result->anomaly);
 #endif
@@ -164,6 +198,15 @@ void ei_start_impulse(bool continuous, bool debug, bool use_max_uart_speed)
 
     continuous_mode = continuous;
     debug_mode = debug;
+
+    gpio_pad_select_gpio(GPIO_OUTPUT_LED_BLUE);
+    gpio_reset_pin(GPIO_OUTPUT_LED_BLUE);
+
+    gpio_pad_select_gpio(GPIO_OUTPUT_LED_GREEN);
+    gpio_reset_pin(GPIO_OUTPUT_LED_GREEN);
+
+    gpio_set_direction(GPIO_OUTPUT_LED_BLUE, GPIO_MODE_OUTPUT);
+    gpio_set_direction(GPIO_OUTPUT_LED_GREEN, GPIO_MODE_OUTPUT);
 
     // summary of inferencing settings (from model_metadata.h)
     ei_printf("Inferencing settings:\n");

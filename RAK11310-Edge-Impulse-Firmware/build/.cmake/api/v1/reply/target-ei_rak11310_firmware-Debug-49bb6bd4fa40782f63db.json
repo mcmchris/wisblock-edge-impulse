@@ -14,10 +14,10 @@
 			"target_link_libraries",
 			"pico_define_boot_stage2",
 			"add_dependencies",
+			"pico_generate_pio_header",
 			"find_package",
 			"pico_add_uf2_output",
 			"pico_add_extra_outputs",
-			"pico_generate_pio_header",
 			"add_definitions",
 			"target_compile_definitions",
 			"target_include_directories",
@@ -27,8 +27,8 @@
 		[
 			"CMakeLists.txt",
 			"C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/boot_stage2/CMakeLists.txt",
-			"C:/VSARM/sdk/pico/pico-sdk/tools/FindELF2UF2.cmake",
 			"C:/VSARM/sdk/pico/pico-sdk/tools/CMakeLists.txt",
+			"C:/VSARM/sdk/pico/pico-sdk/tools/FindELF2UF2.cmake",
 			"C:/VSARM/sdk/pico/pico-sdk/src/rp2_common.cmake"
 		],
 		"nodes" : 
@@ -64,43 +64,43 @@
 				"parent" : 4
 			},
 			{
-				"command" : 6,
-				"file" : 0,
-				"line" : 148,
-				"parent" : 0
-			},
-			{
-				"command" : 5,
-				"file" : 4,
-				"line" : 45,
-				"parent" : 6
-			},
-			{
 				"command" : 4,
-				"file" : 3,
-				"line" : 49,
-				"parent" : 7
-			},
-			{
-				"file" : 2,
-				"parent" : 8
+				"file" : 0,
+				"line" : 102,
+				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 2,
-				"line" : 41,
-				"parent" : 9
+				"line" : 37,
+				"parent" : 6
 			},
 			{
 				"command" : 7,
 				"file" : 0,
-				"line" : 103,
+				"line" : 144,
 				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 45,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 49,
+				"parent" : 9
+			},
+			{
+				"file" : 3,
+				"parent" : 10
 			},
 			{
 				"command" : 3,
 				"file" : 3,
-				"line" : 37,
+				"line" : 41,
 				"parent" : 11
 			},
 			{
@@ -119,30 +119,30 @@
 				"command" : 9,
 				"file" : 4,
 				"line" : 28,
-				"parent" : 6
+				"parent" : 8
 			},
 			{
 				"command" : 10,
 				"file" : 0,
-				"line" : 62,
+				"line" : 61,
 				"parent" : 0
 			},
 			{
 				"command" : 10,
 				"file" : 0,
-				"line" : 70,
+				"line" : 69,
 				"parent" : 0
 			},
 			{
 				"command" : 10,
-				"file" : 3,
+				"file" : 2,
 				"line" : 42,
-				"parent" : 11
+				"parent" : 6
 			},
 			{
 				"command" : 11,
 				"file" : 0,
-				"line" : 142,
+				"line" : 138,
 				"parent" : 0
 			}
 		]
@@ -711,18 +711,6 @@
 				{
 					"backtrace" : 2,
 					"path" : "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
-				},
-				{
-					"backtrace" : 2,
-					"path" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/freertos/."
-				},
-				{
-					"backtrace" : 2,
-					"path" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/freertos/FreeRTOS-Kernel/include"
-				},
-				{
-					"backtrace" : 2,
-					"path" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/freertos/FreeRTOS-Kernel/portable/GCC/ARM_CM0"
 				},
 				{
 					"backtrace" : 2,
@@ -1445,18 +1433,6 @@
 				{
 					"backtrace" : 2,
 					"path" : "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
-				},
-				{
-					"backtrace" : 2,
-					"path" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/freertos/."
-				},
-				{
-					"backtrace" : 2,
-					"path" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/freertos/FreeRTOS-Kernel/include"
-				},
-				{
-					"backtrace" : 2,
-					"path" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/freertos/FreeRTOS-Kernel/portable/GCC/ARM_CM0"
 				},
 				{
 					"backtrace" : 2,
@@ -2705,18 +2681,6 @@
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/freertos/."
-				},
-				{
-					"backtrace" : 2,
-					"path" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/freertos/FreeRTOS-Kernel/include"
-				},
-				{
-					"backtrace" : 2,
-					"path" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/freertos/FreeRTOS-Kernel/portable/GCC/ARM_CM0"
-				},
-				{
-					"backtrace" : 2,
 					"path" : "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_dma/include"
 				},
 				{
@@ -2744,20 +2708,16 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 10,
-			"id" : "ELF2UF2Build::@6890427a1f51a3e7e1df"
+			"backtrace" : 7,
+			"id" : "ei_rak11310_firmware_pdm_pio_h::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 12,
-			"id" : "ei_rak11310_firmware_pdm_pio_h::@6890427a1f51a3e7e1df"
+			"id" : "ELF2UF2Build::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 13,
 			"id" : "bs2_default_padded_checksummed_asm::@bc554eaed616d198a22d"
-		},
-		{
-			"backtrace" : 2,
-			"id" : "freertos::@2c328eccfcd2443a4ea6"
 		}
 	],
 	"id" : "ei_rak11310_firmware::@6890427a1f51a3e7e1df",
@@ -3587,11 +3547,6 @@
 				"backtrace" : 2,
 				"fragment" : "-Wl,--wrap=getchar",
 				"role" : "flags"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "freertos\\libfreertos.a",
-				"role" : "libraries"
 			},
 			{
 				"backtrace" : 5,

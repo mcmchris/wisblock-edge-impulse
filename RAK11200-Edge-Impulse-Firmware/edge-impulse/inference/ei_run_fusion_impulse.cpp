@@ -215,7 +215,7 @@ void ei_start_impulse(bool continuous, bool debug, bool use_max_uart_speed)
 
     while(!ei_user_invoke_stop()) {
         if (state == INFERENCE_SAMPLING) {
-            //dev->set_state(eiStateSampling);
+            dev->set_state(eiStateSampling);
             ei_sleep(5);
         }
         else {
@@ -229,7 +229,7 @@ void ei_stop_impulse(void)
 {
     if(state != INFERENCE_STOPPED) {
         ei_printf("Inferencing stopped by user\r\n");
-        // EiDevice.set_state(eiStateFinished);
+         EiDevice.set_state(eiStateFinished);
         /* reset samples buffer */
         samples_wr_index = 0;
     }
