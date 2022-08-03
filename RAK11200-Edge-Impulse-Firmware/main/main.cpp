@@ -97,13 +97,13 @@ extern "C" int app_main()
     while (1)
     {
         /* handle command comming from uart */
-        ei_start_impulse(true, false);
-        /*char data = ei_get_serial_byte();
+        //ei_start_impulse(true, false);
+        char data = ei_get_serial_byte();
 
         while (data != 0xFF)
         {
             at->handle(data);
             data = ei_get_serial_byte();
-        }*/
+        }
     }
 }

@@ -216,12 +216,12 @@ uint32_t EiDeviceRP2040::get_data_output_baudrate(void)
 
 void EiDeviceRP2040::set_default_data_output_baudrate(void)
 {
-    int normal_baud = uart_set_baudrate(uart0, 115200);
+    //int normal_baud = uart_set_baudrate(uart0, 115200);
 }
 
 void EiDeviceRP2040::set_max_data_output_baudrate(void)
 {
-    int high_baud =uart_set_baudrate(uart0, 921600);
+    //int high_baud =uart_set_baudrate(uart0, 921600);
 }
 
 /**

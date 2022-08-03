@@ -8216,10 +8216,52 @@ CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/CMSIS/NN/Source/SoftmaxFunc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_with_batch_q7.c.s"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\edge-impulse-sdk\CMSIS\NN\Source\SoftmaxFunctions\arm_softmax_with_batch_q7.c -o CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\CMSIS\NN\Source\SoftmaxFunctions\arm_softmax_with_batch_q7.c.s
 
+CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.c.obj: CMakeFiles/ei_rak11310_firmware.dir/flags.make
+CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.c.obj: C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.c
+CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.c.obj: CMakeFiles/ei_rak11310_firmware.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_583) "Building C object CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.c.obj"
+	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.c.obj -MF CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\porting\ethos-core-driver\src\ethosu_device.c.obj.d -o CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\porting\ethos-core-driver\src\ethosu_device.c.obj -c C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\edge-impulse-sdk\porting\ethos-core-driver\src\ethosu_device.c
+
+CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.c.i"
+	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\edge-impulse-sdk\porting\ethos-core-driver\src\ethosu_device.c > CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\porting\ethos-core-driver\src\ethosu_device.c.i
+
+CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.c.s"
+	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\edge-impulse-sdk\porting\ethos-core-driver\src\ethosu_device.c -o CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\porting\ethos-core-driver\src\ethosu_device.c.s
+
+CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.c.obj: CMakeFiles/ei_rak11310_firmware.dir/flags.make
+CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.c.obj: C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.c
+CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.c.obj: CMakeFiles/ei_rak11310_firmware.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_584) "Building C object CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.c.obj"
+	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.c.obj -MF CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\porting\ethos-core-driver\src\ethosu_driver.c.obj.d -o CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\porting\ethos-core-driver\src\ethosu_driver.c.obj -c C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\edge-impulse-sdk\porting\ethos-core-driver\src\ethosu_driver.c
+
+CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.c.i"
+	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\edge-impulse-sdk\porting\ethos-core-driver\src\ethosu_driver.c > CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\porting\ethos-core-driver\src\ethosu_driver.c.i
+
+CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.c.s"
+	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\edge-impulse-sdk\porting\ethos-core-driver\src\ethosu_driver.c -o CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\porting\ethos-core-driver\src\ethosu_driver.c.s
+
+CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.c.obj: CMakeFiles/ei_rak11310_firmware.dir/flags.make
+CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.c.obj: C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.c
+CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.c.obj: CMakeFiles/ei_rak11310_firmware.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_585) "Building C object CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.c.obj"
+	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.c.obj -MF CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\porting\ethos-core-driver\src\ethosu_pmu.c.obj.d -o CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\porting\ethos-core-driver\src\ethosu_pmu.c.obj -c C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\edge-impulse-sdk\porting\ethos-core-driver\src\ethosu_pmu.c
+
+CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.c.i"
+	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\edge-impulse-sdk\porting\ethos-core-driver\src\ethosu_pmu.c > CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\porting\ethos-core-driver\src\ethosu_pmu.c.i
+
+CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.c.s"
+	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\edge-impulse-sdk\porting\ethos-core-driver\src\ethosu_pmu.c -o CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\porting\ethos-core-driver\src\ethosu_pmu.c.s
+
 CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.obj: CMakeFiles/ei_rak11310_firmware.dir/flags.make
 CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.obj: C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/edge-impulse-sdk/tensorflow/lite/c/common.c
 CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.obj: CMakeFiles/ei_rak11310_firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_583) "Building C object CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_586) "Building C object CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.obj"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.obj -MF CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\tensorflow\lite\c\common.c.obj.d -o CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\tensorflow\lite\c\common.c.obj -c C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\edge-impulse-sdk\tensorflow\lite\c\common.c
 
 CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.i: cmake_force
@@ -8229,48 +8271,6 @@ CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.
 CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.s"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\edge-impulse-sdk\tensorflow\lite\c\common.c -o CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\tensorflow\lite\c\common.c.s
-
-CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.c.obj: CMakeFiles/ei_rak11310_firmware.dir/flags.make
-CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.c.obj: C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.c
-CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.c.obj: CMakeFiles/ei_rak11310_firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_584) "Building C object CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.c.obj"
-	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.c.obj -MF CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\third_party\ethos-core-driver\src\ethosu_device.c.obj.d -o CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\third_party\ethos-core-driver\src\ethosu_device.c.obj -c C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\edge-impulse-sdk\third_party\ethos-core-driver\src\ethosu_device.c
-
-CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.c.i"
-	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\edge-impulse-sdk\third_party\ethos-core-driver\src\ethosu_device.c > CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\third_party\ethos-core-driver\src\ethosu_device.c.i
-
-CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.c.s"
-	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\edge-impulse-sdk\third_party\ethos-core-driver\src\ethosu_device.c -o CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\third_party\ethos-core-driver\src\ethosu_device.c.s
-
-CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.c.obj: CMakeFiles/ei_rak11310_firmware.dir/flags.make
-CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.c.obj: C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.c
-CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.c.obj: CMakeFiles/ei_rak11310_firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_585) "Building C object CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.c.obj"
-	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.c.obj -MF CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\third_party\ethos-core-driver\src\ethosu_driver.c.obj.d -o CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\third_party\ethos-core-driver\src\ethosu_driver.c.obj -c C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\edge-impulse-sdk\third_party\ethos-core-driver\src\ethosu_driver.c
-
-CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.c.i"
-	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\edge-impulse-sdk\third_party\ethos-core-driver\src\ethosu_driver.c > CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\third_party\ethos-core-driver\src\ethosu_driver.c.i
-
-CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.c.s"
-	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\edge-impulse-sdk\third_party\ethos-core-driver\src\ethosu_driver.c -o CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\third_party\ethos-core-driver\src\ethosu_driver.c.s
-
-CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.c.obj: CMakeFiles/ei_rak11310_firmware.dir/flags.make
-CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.c.obj: C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.c
-CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.c.obj: CMakeFiles/ei_rak11310_firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_586) "Building C object CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.c.obj"
-	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.c.obj -MF CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\third_party\ethos-core-driver\src\ethosu_pmu.c.obj.d -o CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\third_party\ethos-core-driver\src\ethosu_pmu.c.obj -c C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\edge-impulse-sdk\third_party\ethos-core-driver\src\ethosu_pmu.c
-
-CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.c.i"
-	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\edge-impulse-sdk\third_party\ethos-core-driver\src\ethosu_pmu.c > CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\third_party\ethos-core-driver\src\ethosu_pmu.c.i
-
-CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.c.s"
-	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\edge-impulse-sdk\third_party\ethos-core-driver\src\ethosu_pmu.c -o CMakeFiles\ei_rak11310_firmware.dir\edge-impulse-sdk\third_party\ethos-core-driver\src\ethosu_pmu.c.s
 
 CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.obj: CMakeFiles/ei_rak11310_firmware.dir/flags.make
 CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.obj: C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc
@@ -12625,10 +12625,10 @@ ei_rak11310_firmware_OBJECTS = \
 "CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_s8.c.obj" \
 "CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_u8.c.obj" \
 "CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_with_batch_q7.c.obj" \
+"CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.c.obj" \
+"CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.c.obj" \
+"CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.c.obj" \
 "CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.obj" \
-"CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.c.obj" \
-"CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.c.obj" \
-"CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.c.obj" \
 "CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.obj" \
 "CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.obj" \
 "CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.obj" \
@@ -13485,10 +13485,10 @@ ei_rak11310_firmware.elf: CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/C
 ei_rak11310_firmware.elf: CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_s8.c.obj
 ei_rak11310_firmware.elf: CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_u8.c.obj
 ei_rak11310_firmware.elf: CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_with_batch_q7.c.obj
+ei_rak11310_firmware.elf: CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.c.obj
+ei_rak11310_firmware.elf: CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.c.obj
+ei_rak11310_firmware.elf: CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.c.obj
 ei_rak11310_firmware.elf: CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/tensorflow/lite/c/common.c.obj
-ei_rak11310_firmware.elf: CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.c.obj
-ei_rak11310_firmware.elf: CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.c.obj
-ei_rak11310_firmware.elf: CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.c.obj
 ei_rak11310_firmware.elf: CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.obj
 ei_rak11310_firmware.elf: CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.obj
 ei_rak11310_firmware.elf: CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.obj

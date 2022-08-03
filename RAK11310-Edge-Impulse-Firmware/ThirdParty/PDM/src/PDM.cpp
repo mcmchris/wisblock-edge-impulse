@@ -115,7 +115,7 @@ int PDMClass::begin(int channels, int sampleRate)
 
   // Configure PIO state machine
   float clkDiv = (float)clock_get_hz(clk_sys) / sampleRate / decimation / 2; 
-  printf("Frencuencia de CLK = %.12f\n",clkDiv);
+  //printf("Frencuencia de CLK = %.12f\n",clkDiv);
   if(pio_can_add_program(pio, &pdm_pio_program)) {
     offset = pio_add_program(pio, &pdm_pio_program);
     pdm_pio_program_init(pio, sm, offset, _clkPin, _dinPin, clkDiv);
