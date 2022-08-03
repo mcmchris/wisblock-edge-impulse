@@ -13,9 +13,7 @@
 
 ### Flash
 
-- Download the already built [firmware .bin](https://github.com/mcmchris/wisblock-edge-impulse/blob/main/RAK11200-Edge-Impulse-Firmware/build/ei_rak11200_firmware.bin)
-- Download the [bootloader .bin](https://github.com/mcmchris/wisblock-edge-impulse/blob/main/RAK11200-Edge-Impulse-Firmware/build/bootloader/bootloader.bin) 
-- Download the [partition table .bin](https://github.com/mcmchris/wisblock-edge-impulse/blob/main/RAK11200-Edge-Impulse-Firmware/build/partition_table/partition-table.bin)
+- Download the [firmware .ZIP file](https://github.com/mcmchris/wisblock-edge-impulse/releases/tag/v.1.0.0) and unzip it.
 - Download the [ESP Flash Download Tool](https://www.espressif.com/en/support/download/other-tools) or any other flasher compatible with your OS.
 - Open the Flash Download Tool and set chipType to "ESP32" and left workMode on "develop", finally click in OK.
 
