@@ -75,7 +75,7 @@ EiDeviceESP32::EiDeviceESP32(EiDeviceMemory* mem)
     //network_present = !(net->init());
 
     // microphone is not handled by fusion system
-    standalone_sensor_list[0].name = "Built-in microphone";
+    standalone_sensor_list[0].name = "PDM microphone";
     standalone_sensor_list[0].start_sampling_cb = &ei_microphone_sample_start;
     standalone_sensor_list[0].max_sample_length_s = mem->get_available_sample_bytes() / (16000 * 2);
     standalone_sensor_list[0].frequencies[0] = 16000.0f;

@@ -1,4 +1,4 @@
-# Install script for directory: C:/wisblock-edge-impulse/RAK11200-Edge-Impulse-Firmware
+# Install script for directory: C:/Users/Christopher/Documents/GitHub/wisblock-edge-impulse/RAK11200-Edge-Impulse-Firmware
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/wisblock-edge-impulse/RAK11200-Edge-Impulse-Firmware/build/esp-idf/cmake_install.cmake")
+  include("C:/Users/Christopher/Documents/GitHub/wisblock-edge-impulse/RAK11200-Edge-Impulse-Firmware/build/esp-idf/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/wisblock-edge-impulse/RAK11200-Edge-Impulse-Firmware/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Christopher/Documents/GitHub/wisblock-edge-impulse/RAK11200-Edge-Impulse-Firmware/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,4 +1,4 @@
-# Install script for directory: C:/wisblock-edge-impulse/RAK11200-Edge-Impulse-Firmware/components/LIS3DHTR_ESP-IDF
+# Install script for directory: C:/Users/Christopher/Documents/GitHub/wisblock-edge-impulse/RAK11200-Edge-Impulse-Firmware/components/LIS3DHTR_ESP-IDF
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/wisblock-edge-impulse/RAK11200-Edge-Impulse-Firmware/build/esp-idf/esp_system/port/cmake_install.cmake")
+  include("C:/Users/Christopher/Documents/GitHub/wisblock-edge-impulse/RAK11200-Edge-Impulse-Firmware/build/esp-idf/esp_system/port/cmake_install.cmake")
 
 endif()
 
