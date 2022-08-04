@@ -94,9 +94,8 @@ Install ESP IDF v4.4, following the instructions for your OS from [this page](ht
 - You'll need two additional components to compile this firmware:
   - LIS3DHTR_ESP-IDF
   - ESP-NN
-  
--First open the ESP-IDF 4.4 CMD from the Desktop shortcut.
--Then Navigate to the firmware folder ../RAK11200-Edge-Impulse-Firmware
+- First open the ESP-IDF 4.4 CMD from the Desktop shortcut.
+- Then Navigate to the firmware folder ../RAK11200-Edge-Impulse-Firmware
 
 Get the additional components by cloning the corresponding repositories to **components** folder in the root folder of the project: (../RAK11200-Edge-Impulse-Firmware/components)
 
