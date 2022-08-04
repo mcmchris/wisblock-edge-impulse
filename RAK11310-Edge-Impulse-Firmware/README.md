@@ -87,7 +87,7 @@ After installing the neccessary tools to build code for the RP2040.
 
 ![image](https://user-images.githubusercontent.com/49886387/179550443-0e970ca8-18e9-43de-8c44-b9d1cb97690c.png)
 
-If it fails,delete manually the **Build folder** of the project and try building again.
+If it fails,delete manually the **Build** folder of the project and try building again.
 
 ## Flash
 
