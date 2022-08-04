@@ -78,7 +78,8 @@ The firmware has an already trained model inside ready to be tested.
 
 After installing the neccessary tools to build code for the RP2040.
 - Open the project on Visual Studio code.
-- Select the compiler that cames in the pico-sdk and click on "Build".
+- Select the GCC 10.3.1 compiler. (error if use other version) 
+- Click on "Build".
 
 ![Captura de pantalla 2022-07-18 114100](https://user-images.githubusercontent.com/49886387/179549644-c45c9b3b-9705-427e-8c72-4b2c44aef0e5.png)
 
