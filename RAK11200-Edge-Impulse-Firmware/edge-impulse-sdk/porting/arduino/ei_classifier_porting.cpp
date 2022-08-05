@@ -51,11 +51,6 @@ void ei_serial_set_baudrate(int baudrate)
 
 }
 
-void ei_putchar(char c)
-{
-    Serial.write(c);
-}
-
 /**
  *  Printf function uses vsnprintf and output using Arduino Serial
  */

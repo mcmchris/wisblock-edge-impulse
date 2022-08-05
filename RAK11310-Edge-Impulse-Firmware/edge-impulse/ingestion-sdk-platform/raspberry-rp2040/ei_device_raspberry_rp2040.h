@@ -42,7 +42,7 @@
 #define DEBUG_PRINT null_printf
 #endif
 
-const uint LED_PIN = PICO_DEFAULT_LED_PIN;
+const uint LED_PIN = 23; //PICO_DEFAULT_LED_PIN; = 25
 
 /** C Callback types */
 typedef int (*c_callback)(uint8_t out_buffer[32], size_t *out_size);

@@ -26,17 +26,17 @@
 #include "model_metadata.h"
 #include "edge-impulse-sdk/classifier/ei_model_types.h"
 
-const char* ei_classifier_inferencing_categories[] = { "hey-rakstar", "noise", "turn off", "turn on", "unknown" };
+const char* ei_classifier_inferencing_categories[] = { "Hey RAKstar", "noise", "unknown" };
 
-uint8_t ei_dsp_config_20_axes[] = { 0 };
-const uint32_t ei_dsp_config_20_axes_size = 1;
-ei_dsp_config_mfcc_t ei_dsp_config_20 = {
+uint8_t ei_dsp_config_13_axes[] = { 0 };
+const uint32_t ei_dsp_config_13_axes_size = 1;
+ei_dsp_config_mfcc_t ei_dsp_config_13 = {
     3,
     1,
     13,
-    0.032f,
-    0.032f,
-    40,
+    0.02f,
+    0.02f,
+    32,
     256,
     101,
     300,

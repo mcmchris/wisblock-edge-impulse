@@ -67,47 +67,12 @@ static void display_results(ei_impulse_result_t *result)
         ei_printf("    %s: \t%f\r\n", result->classification[ix].label, result->classification[ix].value);
     }
 
-    if (result->classification[0].value > 0.20 && keyword == 0)
+    if (result->classification[0].value > 0.80)
     {
 
-        // zero-initialize the config structure.
-        /*gpio_config_t io_conf = {};
-        // set as output mode
-        io_conf.mode = GPIO_MODE_OUTPUT;
-        // bit mask of the pins that you want to set,e.g.GPIO18/19
-        io_conf.pin_bit_mask = GPIO_OUTPUT_PIN_SEL;
-        gpio_config(&io_conf);*/
         gpio_set_level(GPIO_OUTPUT_LED_GREEN, 1);
-        keyword = 1;
-        // ei_sleep(500);
-    }
-    if (result->classification[2].value > 0.20 && keyword == 1 && out_status == 1) // Turn off the light
-    {
-        keyword = 0;
-        gpio_set_level(GPIO_OUTPUT_LED_BLUE, 0);
+        ei_sleep(500);
         gpio_set_level(GPIO_OUTPUT_LED_GREEN, 0);
-        gpio_set_level(GPIO_OUTPUT_RELAY, 0);
-        out_status = 0;
-        // ei_sleep(500);
-    }
-    if (result->classification[3].value > 0.20 && keyword == 1 && out_status == 0) // Turn on the light
-    {
-        keyword = 0;
-        gpio_set_level(GPIO_OUTPUT_RELAY, 1);
-        gpio_set_level(GPIO_OUTPUT_LED_BLUE, 1);
-        gpio_set_level(GPIO_OUTPUT_LED_GREEN, 0);
-        out_status = 1;
-        // ei_sleep(500);
-    }
-
-    unsigned long currentMillis = ei_read_timer_ms();
-
-    if (currentMillis - previousMillis >= 10000 && keyword == 1)
-    {
-        // save the last time you said the keyword
-        previousMillis = currentMillis;
-        gpio_set_level(GPIO_OUTPUT_LED_GREEN, 0);
-        keyword = 0;
     }
 
 #if EI_CLASSIFIER_HAS_ANOMALY == 1

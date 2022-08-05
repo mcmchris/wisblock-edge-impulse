@@ -15560,78 +15560,6 @@ edge-impulse-sdk/porting/espressif/ei_classifier_porting.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ei_rak11310_firmware.dir\build.make CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/espressif/ei_classifier_porting.cpp.s
 .PHONY : edge-impulse-sdk/porting/espressif/ei_classifier_porting.cpp.s
 
-edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.obj: edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.c.obj
-.PHONY : edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.obj
-
-# target to build an object file
-edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ei_rak11310_firmware.dir\build.make CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.c.obj
-.PHONY : edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.c.obj
-
-edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.i: edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.c.i
-.PHONY : edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.i
-
-# target to preprocess a source file
-edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ei_rak11310_firmware.dir\build.make CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.c.i
-.PHONY : edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.c.i
-
-edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.s: edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.c.s
-.PHONY : edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.s
-
-# target to generate assembly for a file
-edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ei_rak11310_firmware.dir\build.make CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.c.s
-.PHONY : edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.c.s
-
-edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.obj: edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.c.obj
-.PHONY : edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.obj
-
-# target to build an object file
-edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ei_rak11310_firmware.dir\build.make CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.c.obj
-.PHONY : edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.c.obj
-
-edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.i: edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.c.i
-.PHONY : edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.i
-
-# target to preprocess a source file
-edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ei_rak11310_firmware.dir\build.make CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.c.i
-.PHONY : edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.c.i
-
-edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.s: edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.c.s
-.PHONY : edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.s
-
-# target to generate assembly for a file
-edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ei_rak11310_firmware.dir\build.make CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.c.s
-.PHONY : edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.c.s
-
-edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.obj: edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.c.obj
-.PHONY : edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.obj
-
-# target to build an object file
-edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ei_rak11310_firmware.dir\build.make CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.c.obj
-.PHONY : edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.c.obj
-
-edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.i: edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.c.i
-.PHONY : edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.i
-
-# target to preprocess a source file
-edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ei_rak11310_firmware.dir\build.make CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.c.i
-.PHONY : edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.c.i
-
-edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.s: edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.c.s
-.PHONY : edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.s
-
-# target to generate assembly for a file
-edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ei_rak11310_firmware.dir\build.make CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.c.s
-.PHONY : edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.c.s
-
 edge-impulse-sdk/porting/himax/debug_log.obj: edge-impulse-sdk/porting/himax/debug_log.cpp.obj
 .PHONY : edge-impulse-sdk/porting/himax/debug_log.obj
 
@@ -18391,6 +18319,78 @@ edge-impulse-sdk/tensorflow/lite/micro/test_helpers.s: edge-impulse-sdk/tensorfl
 edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ei_rak11310_firmware.dir\build.make CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.s
 .PHONY : edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cc.s
+
+edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.obj: edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.c.obj
+.PHONY : edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.obj
+
+# target to build an object file
+edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ei_rak11310_firmware.dir\build.make CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.c.obj
+.PHONY : edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.c.obj
+
+edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.i: edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.c.i
+.PHONY : edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.i
+
+# target to preprocess a source file
+edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ei_rak11310_firmware.dir\build.make CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.c.i
+.PHONY : edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.c.i
+
+edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.s: edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.c.s
+.PHONY : edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ei_rak11310_firmware.dir\build.make CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.c.s
+.PHONY : edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.c.s
+
+edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.obj: edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.c.obj
+.PHONY : edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.obj
+
+# target to build an object file
+edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ei_rak11310_firmware.dir\build.make CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.c.obj
+.PHONY : edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.c.obj
+
+edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.i: edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.c.i
+.PHONY : edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.i
+
+# target to preprocess a source file
+edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ei_rak11310_firmware.dir\build.make CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.c.i
+.PHONY : edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.c.i
+
+edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.s: edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.c.s
+.PHONY : edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ei_rak11310_firmware.dir\build.make CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.c.s
+.PHONY : edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.c.s
+
+edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.obj: edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.c.obj
+.PHONY : edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.obj
+
+# target to build an object file
+edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ei_rak11310_firmware.dir\build.make CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.c.obj
+.PHONY : edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.c.obj
+
+edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.i: edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.c.i
+.PHONY : edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.i
+
+# target to preprocess a source file
+edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ei_rak11310_firmware.dir\build.make CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.c.i
+.PHONY : edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.c.i
+
+edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.s: edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.c.s
+.PHONY : edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.s
+
+# target to generate assembly for a file
+edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ei_rak11310_firmware.dir\build.make CMakeFiles/ei_rak11310_firmware.dir/edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.c.s
+.PHONY : edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.c.s
 
 edge-impulse/QCBOR/src/UsefulBuf.obj: edge-impulse/QCBOR/src/UsefulBuf.c.obj
 .PHONY : edge-impulse/QCBOR/src/UsefulBuf.obj
@@ -22533,15 +22533,6 @@ help:
 	@echo ... edge-impulse-sdk/porting/espressif/ei_classifier_porting.obj
 	@echo ... edge-impulse-sdk/porting/espressif/ei_classifier_porting.i
 	@echo ... edge-impulse-sdk/porting/espressif/ei_classifier_porting.s
-	@echo ... edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.obj
-	@echo ... edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.i
-	@echo ... edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.s
-	@echo ... edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.obj
-	@echo ... edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.i
-	@echo ... edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.s
-	@echo ... edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.obj
-	@echo ... edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.i
-	@echo ... edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.s
 	@echo ... edge-impulse-sdk/porting/himax/debug_log.obj
 	@echo ... edge-impulse-sdk/porting/himax/debug_log.i
 	@echo ... edge-impulse-sdk/porting/himax/debug_log.s
@@ -22887,6 +22878,15 @@ help:
 	@echo ... edge-impulse-sdk/tensorflow/lite/micro/test_helpers.obj
 	@echo ... edge-impulse-sdk/tensorflow/lite/micro/test_helpers.i
 	@echo ... edge-impulse-sdk/tensorflow/lite/micro/test_helpers.s
+	@echo ... edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.obj
+	@echo ... edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.i
+	@echo ... edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.s
+	@echo ... edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.obj
+	@echo ... edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.i
+	@echo ... edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.s
+	@echo ... edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.obj
+	@echo ... edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.i
+	@echo ... edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.s
 	@echo ... edge-impulse/QCBOR/src/UsefulBuf.obj
 	@echo ... edge-impulse/QCBOR/src/UsefulBuf.i
 	@echo ... edge-impulse/QCBOR/src/UsefulBuf.s

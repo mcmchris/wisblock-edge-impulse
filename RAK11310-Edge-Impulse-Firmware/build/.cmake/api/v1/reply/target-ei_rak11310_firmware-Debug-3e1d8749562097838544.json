@@ -8016,25 +8016,25 @@
 		{
 			"backtrace" : 19,
 			"compileGroupIndex" : 1,
-			"path" : "edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_device.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 19,
-			"compileGroupIndex" : 1,
-			"path" : "edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_driver.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 19,
-			"compileGroupIndex" : 1,
-			"path" : "edge-impulse-sdk/porting/ethos-core-driver/src/ethosu_pmu.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 19,
-			"compileGroupIndex" : 1,
 			"path" : "edge-impulse-sdk/tensorflow/lite/c/common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_driver.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "edge-impulse-sdk/third_party/ethos-core-driver/src/ethosu_pmu.c",
 			"sourceGroupIndex" : 0
 		},
 		{

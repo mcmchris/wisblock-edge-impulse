@@ -1,4 +1,4 @@
-/* * Data converted from C:/Users/Christopher/Documents/GitHub/wisblock-edge-impulse/RAK11200-Edge-Impulse-Firmware/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/wisblock-edge-impulse/RAK11200-Edge-Impulse-Firmware/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded
