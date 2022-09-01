@@ -36,7 +36,7 @@ float *ei_fusion_inertial_sensor_read_data(int n_samples);
 
 static const ei_device_fusion_sensor_t inertial_sensor = {
     // name of sensor module to be displayed in fusion list
-    "Inertial RAK1904",
+    "RAK1904 3-AXIS IMU",
     // number of sensor module axis
     INERTIAL_AXIS_SAMPLED,
     // sampling frequencies

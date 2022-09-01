@@ -1,4 +1,4 @@
-# Install script for directory: C:/Espressif/frameworks/esp-idf-v4.4.1
+# Install script for directory: C:/Users/MCMCHRIS/esp/esp-idf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
