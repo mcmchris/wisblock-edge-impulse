@@ -9,4 +9,4 @@ This repository contains the Edge Impulse firmwares for the variety of WisBlock 
 | ------ | ------ | ------ |
 | RAK11200 (ESP32) | 06/30/2022 | ✅ |
 | RAK11310 (RP2040) | 07/13/2022 | ✅ |
-| RAK4631 (nRF52840) |  |  |
+| RAK4631 (nRF52840) | 08/10/2022 | ✅ |
