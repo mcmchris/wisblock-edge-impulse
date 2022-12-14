@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild"
+			"file" : "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild"
 		},
 		{
-			"file" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.rule"
+			"file" : "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.rule"
 		},
 		{
-			"file" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild-complete.rule"
+			"file" : "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild-complete.rule"
 		},
 		{
-			"file" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule"
+			"file" : "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule"
 		},
 		{
-			"file" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule"
+			"file" : "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule"
 		},
 		{
-			"file" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule"
+			"file" : "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule"
 		},
 		{
-			"file" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule"
+			"file" : "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule"
 		},
 		{
-			"file" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule"
+			"file" : "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule"
 		},
 		{
-			"file" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule"
+			"file" : "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule"
 		},
 		{
-			"file" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule"
+			"file" : "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule"
 		}
 	],
 	"target" : 

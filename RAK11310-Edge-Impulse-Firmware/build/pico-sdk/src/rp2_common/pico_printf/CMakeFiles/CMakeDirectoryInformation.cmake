@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "C:/VSARM/sdk/pico/pico-sdk")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

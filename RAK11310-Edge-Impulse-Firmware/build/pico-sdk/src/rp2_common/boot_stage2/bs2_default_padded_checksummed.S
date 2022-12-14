@@ -1,4 +1,4 @@
-// Padded and checksummed version of: C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

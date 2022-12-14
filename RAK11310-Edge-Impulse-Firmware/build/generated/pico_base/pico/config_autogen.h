@@ -4,7 +4,7 @@
 
 // based on PICO_CONFIG_HEADER_FILES:
 
-#include "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/ThirdParty/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h"
+#include "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/ThirdParty/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h"
 #include "C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h"
 
 // based on PICO_RP2040_CONFIG_HEADER_FILES:

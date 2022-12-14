@@ -1,13 +1,13 @@
 # Target labels
  ELF2UF2Build
 # Source files and their labels
-C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/CMakeFiles/ELF2UF2Build
-C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/CMakeFiles/ELF2UF2Build.rule
-C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/CMakeFiles/ELF2UF2Build-complete.rule
-C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
-C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
-C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
-C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
-C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
-C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
-C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule
+D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/CMakeFiles/ELF2UF2Build
+D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/CMakeFiles/ELF2UF2Build.rule
+D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/CMakeFiles/ELF2UF2Build-complete.rule
+D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule

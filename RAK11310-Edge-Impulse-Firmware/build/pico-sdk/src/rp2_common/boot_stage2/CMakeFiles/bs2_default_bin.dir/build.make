@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware
+CMAKE_SOURCE_DIR = D:\MyRepositories\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\build
+CMAKE_BINARY_DIR = D:\MyRepositories\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\build
 
 # Utility rule file for bs2_default_bin.
 
@@ -68,8 +68,8 @@ include pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/progr
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
-	cd /d C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\build\pico-sdk\src\rp2_common\boot_stage2 && "C:\VSARM\armcc\10 2021.10\bin\arm-none-eabi-objcopy.exe" -Obinary C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\MyRepositories\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
+	cd /d D:\MyRepositories\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\build\pico-sdk\src\rp2_common\boot_stage2 && "C:\Program Files (x86)\GNU Tools ARM Embedded\6 2017-q2-update\bin\arm-none-eabi-objcopy.exe" -Obinary D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 bs2_default_bin: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin
 bs2_default_bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
@@ -81,10 +81,10 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build: bs2_de
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
-	cd /d C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\build\pico-sdk\src\rp2_common\boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles\bs2_default_bin.dir\cmake_clean.cmake
+	cd /d D:\MyRepositories\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\build\pico-sdk\src\rp2_common\boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles\bs2_default_bin.dir\cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\boot_stage2 C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\build C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\build\pico-sdk\src\rp2_common\boot_stage2 C:\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\build\pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\MyRepositories\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\boot_stage2 D:\MyRepositories\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\build D:\MyRepositories\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\build\pico-sdk\src\rp2_common\boot_stage2 D:\MyRepositories\wisblock-edge-impulse\RAK11310-Edge-Impulse-Firmware\build\pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 

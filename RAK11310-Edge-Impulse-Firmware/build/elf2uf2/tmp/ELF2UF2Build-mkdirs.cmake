@@ -5,18 +5,18 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "C:/VSARM/sdk/pico/pico-sdk/tools/elf2uf2"
-  "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2"
-  "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2"
-  "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/tmp"
-  "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp"
-  "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src"
-  "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp"
+  "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2"
+  "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2"
+  "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/tmp"
+  "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp"
+  "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src"
+  "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
+    file(MAKE_DIRECTORY "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp${cfgdir}") # cfgdir has leading slash
 endif()

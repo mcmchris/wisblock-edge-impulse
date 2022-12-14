@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/CMakeFiles/ELF2UF2Build"
+			"file" : "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/CMakeFiles/ELF2UF2Build"
 		},
 		{
-			"file" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/CMakeFiles/ELF2UF2Build.rule"
+			"file" : "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/CMakeFiles/ELF2UF2Build.rule"
 		},
 		{
-			"file" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/CMakeFiles/ELF2UF2Build-complete.rule"
+			"file" : "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/CMakeFiles/ELF2UF2Build-complete.rule"
 		},
 		{
-			"file" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule"
+			"file" : "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule"
 		},
 		{
-			"file" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule"
+			"file" : "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule"
 		},
 		{
-			"file" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule"
+			"file" : "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule"
 		},
 		{
-			"file" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule"
+			"file" : "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule"
 		},
 		{
-			"file" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule"
+			"file" : "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule"
 		},
 		{
-			"file" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule"
+			"file" : "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule"
 		},
 		{
-			"file" : "C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule"
+			"file" : "D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule"
 		}
 	],
 	"target" : 

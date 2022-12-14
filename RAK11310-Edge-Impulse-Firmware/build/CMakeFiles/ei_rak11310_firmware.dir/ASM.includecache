@@ -178,20 +178,20 @@ C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/hardware/regs/sio.h
 pico/binary_info/defs.h
 C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/pico/binary_info/defs.h
 
-C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/FreeRTOSConfig.h
+D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/FreeRTOSConfig.h
 assert.h
 -
 
-C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/ThirdParty/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h
+D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/ThirdParty/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h
 FreeRTOSConfig.h
-C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/ThirdParty/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/FreeRTOSConfig.h
+D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/ThirdParty/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/FreeRTOSConfig.h
 rp2040_config.h
-C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/ThirdParty/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/ThirdParty/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
-C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/ThirdParty/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
+D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/ThirdParty/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
 
 generated/pico_base/pico/config_autogen.h
-C:/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/ThirdParty/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h
+D:/MyRepositories/wisblock-edge-impulse/RAK11310-Edge-Impulse-Firmware/ThirdParty/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h
 -
 C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
 -
